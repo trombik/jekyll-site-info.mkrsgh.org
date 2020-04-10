@@ -1,0 +1,10 @@
+---
+extends: default
+
+rules:
+  truthy: disable
+
+ignore: |
+  vendor
+  node_modules
+  .bundle
