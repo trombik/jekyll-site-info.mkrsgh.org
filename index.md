@@ -28,7 +28,7 @@ If you've never installed or run a Jekyll site locally on your computer, follow 
 
 In case you haven't installed Bundler, install it:
 
-```
+```console
 gem install bundler
 ```
 
@@ -45,13 +45,13 @@ Bundler's Gemfile specifies how project dependencies are managed. Although this 
 
 If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
 
-```
+```console
 gem install jekyll
 ```
 
 Now run jekyll serve (first change directories (`cd`) to where you downloaded the project):
 
-```
+```console
 jekyll serve
 ```
 
@@ -61,13 +61,13 @@ If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.l
 
 You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
 
-```
+```console
 bundle update
 ```
 
 Then *always* use this command to build Jekyll:
 
-```
+```console
 bundle exec jekyll serve
 ```
 
@@ -76,9 +76,11 @@ If you want to shorten this long command, you can put this code in a file such a
 ## Running the site in Docker
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
-```
+
+```console
 docker-compose build --no-cache && docker-compose up
 ```
+
 The site should now be running at [http://localhost:4000/](http://localhost:4000/).
 
 This is perhaps the easiest way to see how your site would actually look.
@@ -91,8 +93,10 @@ The top navigation usually remains the same, because it allows users to navigate
 
 In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
 
+<!-- markdownlint-disable -->
 <pre>
 ---
+
 title: Alerts
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
@@ -101,7 +105,9 @@ summary: "You can insert notes, tips, warnings, and important alerts in your con
 <span class="red">sidebar: mydoc_sidebar</span>
 permalink: mydoc_alerts
 ---
+
 </pre>
+<!-- markdownlint-restore -->
 
 The `sidebar: mydoc_sidebar` refers to the \_data/sidebars/mydoc_sidebar.yml file.
 
@@ -126,7 +132,7 @@ If you don't declare a sidebar, the `home_sidebar` file gets used as the default
 
 If you want to set different sidebar defaults based on different folders for your pages, specify your defaults like this:
 
-```
+```yaml
 -
   scope:
     path: "pages/mydoc"
@@ -379,7 +385,7 @@ See [Posts][mydoc_posts] for more information.
 
 This theme uses [kramdown markdown](http://kramdown.gettalong.org/). kramdown is similar to Github-flavored Markdown, except that when you have text that intercepts list items, the spacing of the intercepting text must align with the spacing of the first character after the space of a numbered list item. Basically, with your list item numbering, use two spaces after the dot in the number, like this:
 
-```
+```markdown
 1.  First item
 2.  Second item
 3.  Third item
@@ -387,7 +393,7 @@ This theme uses [kramdown markdown](http://kramdown.gettalong.org/). kramdown is
 
 When you want to insert paragraphs, notes, code snippets, or other matter in between the list items, use four spaces to indent. The four spaces will line up with the first letter of the list item (the <b>F</b>irst or <b>S</b>econd or <b>T</b>hird).
 
-```
+```markdown
 1.  First item
 
     ```
