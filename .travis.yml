@@ -2,8 +2,11 @@
 language: ruby
 
 before_install:
-  - yes | gem update --system --force
-  - gem install bundler
+
+  # XXX use bundler 1.x for now because OpenBSD does not have bundler 2.x in
+  # the package tree.
+  # - yes | gem update --system --force
+  # - gem install bundler
   - npm install
   - pip install --user yamllint
   - bundle install --jobs=3 --retry=3
