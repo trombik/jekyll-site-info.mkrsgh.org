@@ -7,3 +7,4 @@ _pdf
 vendor/
 .bundle/
 node_modules/
+.jekyll-cache/
