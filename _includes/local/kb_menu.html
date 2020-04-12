@@ -14,8 +14,8 @@ arguments:
     </div>
     {%- for menu in menus %}
     <div class="col-md-3 col-sm-6">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading">
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">
                 <span class="fa-stack fa-5x">
                 <a href="{{ menu.href }}">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -24,7 +24,7 @@ arguments:
                 </span>
             </div>
             <div class="panel-body">
-                <h4>{{ menu.title }}</h4>
+                <h4 class="text-center">{{ menu.title }}</h4>
                 {{ menu.summary }}
                 <a href="{{ menu.href }}" class="btn btn-primary">Learn More</a>
             </div>
