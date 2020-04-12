@@ -11,13 +11,17 @@ hotel_menu:
     title: Hotel policy
     summary: <p>Please have a look at our hotel policy, including checkout time, opening hours, etc</p>
     href: hotel/policy/
+  - title: Services
+    icon: fa-cutlery
+    summary: <p>Available our services during your stay, food, drinks, common spaces, utilities.</p>
+    href: hotel/services/
   - icon: fa-car
     title: Getting around
-    summary: <p>How Access to Angkor Wat, temples, night spots, restaurants, markets, and more!</p>
+    summary: <p>Access to Angkor Wat, temples, night spots, restaurants, markets, and more!</p>
     href: hotel/access/
   - title: Tours
     icon: fa-camera-retro
-    summary: <p>Our local tuk-tuk tours</p>
+    summary: <p>Our local tuk-tuk tours! Not only Angkor Wat, but water reservoirs, local markets.</p>
     href: hotel/tours/
   - title: Understanding
     icon: fa-database
