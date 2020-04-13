@@ -10,23 +10,23 @@ makers_menu:
   - title: Policy
     icon: fa-file-text-o
     summary: <p>Please have a look at our policy at makerspace, including opening hours, dos and donts, and qualifications</p>
-    href: makerspace/policy/
+    href: /makerspace/policy/
   - title: Safety
     icon: fa-warning
     summary: <p>Safety is a critical part of <em>building</em> things. Some tools are dangerous, and others are lethal.</p>
-    href: makerspace/safety/
+    href: /makerspace/safety/
   - title: Tools and Equipment
     icon: fa-microchip
     summary: <p>List of available tools and equipment at Makers.</p> <p></p> <p></p> <p></p>
-    href: makerspace/tools/
+    href: /makerspace/tools/
   - title: Courses
     icon: fa-book
     summary: <p>You can learn something new everyday!</p>
-    href: makerspace/courses/
+    href: /makerspace/courses/
   - title: Supplies and Parts
     icon: fa-shopping-cart
     summary: <p>We sell parts and supplies. Here is stocked parts and supplies.</p>
-    href: makerspace/supplies/
+    href: /makerspace/supplies/
 ---
 
 {% include note.html
