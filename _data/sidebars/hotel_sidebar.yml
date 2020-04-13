@@ -1,0 +1,29 @@
+---
+
+entries:
+  - title: Menu
+    folders:
+      - title: Menu
+        url: /hotel/
+        output: web, pdf
+        type: homepage
+        folderitems:
+          - title: Hotel policy
+            url: /hotel/policy/
+            output: web, pdf
+
+          - title: Services
+            url: /hotel/services/
+            output: web, pdf
+
+          - title: Getting around
+            url: /hotel/getting-around/
+            output: web, pdf
+
+          - title: Tours
+            url: /hotel/tours/
+            output: web, pdf
+
+          - title: Understanding
+            url: /hotel/understanding/
+            output: web, pdf
