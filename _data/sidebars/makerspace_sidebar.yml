@@ -1,0 +1,29 @@
+---
+
+entries:
+  - title: Menu
+    folders:
+      - title: Menu
+        url: /hotel/
+        output: web, pdf
+        type: homepage
+        folderitems:
+          - title: Policy
+            url: /makerspace/policy/
+            output: web, pdf
+
+          - title: Safety
+            url: /makerspace/safety/
+            output: web, pdf
+
+          - title: Tools and Equipment
+            url: /makerspace/tools/
+            output: web, pdf
+
+          - title: Courses
+            url: /makerspace/courses/
+            output: web, pdf
+
+          - title: Supplies and Parts
+            url: /makerspace/supplies/
+            output: web, pdf
