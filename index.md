@@ -32,7 +32,7 @@ makers_menu:
   - title: Policy
     icon: fa-file-text-o
     summary: <p>Please have a look at our policy at makerspace, including opening hours, dos and donts, and qualifications</p>
-    href: makerspace/supplies/
+    href: makerspace/policy/
   - title: Safety
     icon: fa-warning
     summary: <p>Safety is a critical part of <em>building</em> things. Some tools are dangerous, and others are lethal.</p>
