@@ -5,3 +5,6 @@ source "https://rubygems.org"
 
 # to publich without github page
 gem "jekyll"
+
+# for broken links in generated files
+gem "html-proofer"
