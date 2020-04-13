@@ -2,6 +2,3 @@
 vendor
 node_modules
 .bundle
-pages/mydoc
-pages/product1
-pages/product2
