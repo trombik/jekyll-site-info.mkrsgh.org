@@ -8,6 +8,10 @@ entries:
         output: web, pdf
         type: homepage
         folderitems:
+          - title: Makerspace portal home
+            url: /makerspace/
+            output: web, pdf
+
           - title: Policy
             url: /makerspace/policy/
             output: web, pdf
