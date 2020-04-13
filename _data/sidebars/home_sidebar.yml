@@ -11,40 +11,40 @@ entries:
         type: homepage
         folderitems:
           - title: Hotel policy
-            url: hotel/policy/
+            url: /hotel/policy/
             output: web, pdf
 
           - title: Services
-            url: hotel/services/
+            url: /hotel/services/
             output: web, pdf
 
           - title: Getting around
-            url: hotel/getting-around/
+            url: /hotel/getting-around/
             output: web, pdf
 
           - title: Tours
-            url: hotel/tours/
+            url: /hotel/tours/
             output: web, pdf
 
           - title: Understanding
-            url: hotel/understanding/
+            url: /hotel/understanding/
             output: web, pdf
 
       - title: For maker space guests
         output: web, pdf
         folderitems:
           - title: Safety
-            url: makerspace/safety/
+            url: /makerspace/safety/
             output: web, pdf
 
           - title: Tools and Equipment
-            url: makerspace/tools/
+            url: /makerspace/tools/
             output: web, pdf
 
           - title: Courses
-            url: makerspace/courses/
+            url: /makerspace/courses/
             output: web, pdf
 
           - title: Supplies and Parts
-            url: "makerspace/supplies/"
+            url: "/makerspace/supplies/"
             output: web, pdf

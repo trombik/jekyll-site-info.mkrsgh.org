@@ -18,7 +18,7 @@ hotel_menu:
   - icon: fa-car
     title: Getting around
     summary: <p>Access to Angkor Wat, temples, night spots, restaurants, markets, and more!</p>
-    href: hotel/getting-arround/
+    href: hotel/getting-around/
   - title: Tours
     icon: fa-camera-retro
     summary: <p>Our local tuk-tuk tours! Not only Angkor Wat, but water reservoirs, local markets.</p>
