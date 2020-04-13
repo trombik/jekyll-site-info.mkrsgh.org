@@ -12,8 +12,7 @@ before_install:
   - bundle install --jobs=3 --retry=3
 script:
   - node node_modules/markdownlint-cli/markdownlint.js .
-  # XXX too many errors. disable for now
-  - yamllint -c .yamllint.yml . || true
+  - yamllint -c .yamllint.yml -s .
   - bundle exec jekyll build
   # test links, but ignore "linking to internal hash # that does not exist"
   # error. disable external tests to process tests faster.
