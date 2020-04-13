@@ -15,3 +15,6 @@ script:
   # XXX too many errors. disable for now
   - yamllint -c .yamllint.yml . || true
   - bundle exec jekyll build
+  # test links, but ignore "linking to internal hash # that does not exist"
+  # error. disable external tests to process tests faster.
+  - bundle exec htmlproofer --url-ignore "/^#$/" --disable-external _site/
