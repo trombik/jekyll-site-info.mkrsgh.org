@@ -34,6 +34,6 @@ makers_menu:
 %}
 
 {% include local/kb_menu.html
-    title = '<i class="fa fa-hotel"></i> For hotel guests'
+    title = '<i class="fa fa-gavel"></i> For maker space guests'
     items = page.makers_menu
 %}

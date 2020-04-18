@@ -28,21 +28,34 @@ TODO: explain general safety instructions
 1. Provide assistance to the injured party until the emergency response team arrives
 
 ### No drugs and no alcohol
+
 ### Clean up
+
 ### Use Personal Protective Equipment (PPE), dress well
+
 ### Use designated areas for your project
+
 ### Never work alone
+
 ### Report any damage to tools
+
 ### Report when an accident happens
+
 ### Rule Violations
 
-## So you want to use a tool?
+## So you want to use a tool? Read this first
 
 ### Attend lecture
+
 ### Do worksheet
+
 ### Safety test
+
 ### Demonstrate your understandings
+
 ### Use the tool
+
+## Makerspace safety badges
 
 ## Resources
 
