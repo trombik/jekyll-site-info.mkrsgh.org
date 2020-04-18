@@ -23,6 +23,27 @@ entries:
           - title: Tools and Equipment
             url: /makerspace/tools/
             output: web, pdf
+            folderitems:
+              - title: Power Tools
+                url: /makerspace/tools/power_tools
+                output: web, pdf
+
+              - title: Hand Tools
+                url: /makerspace/tools/hand_tools
+                output: web, pdf
+
+              - title: Machines
+                url: /makerspace/tools/machines
+                output: web, pdf
+
+              - title: Information Technology
+                url: /makerspace/tools/information_technology
+                output: web, pdf
+
+              - title: Electronics
+                url: /makerspace/tools/electronics
+                output: web, pdf
+
 
           - title: Courses
             url: /makerspace/courses/
