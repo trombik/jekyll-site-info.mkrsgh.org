@@ -1,5 +1,10 @@
 # XXX a hack to workaround an issue where terraform does not allow dynamic
-# variables in default values of input variables
+# variables in default values of input variables. the original idea was
+# derived from:
+#
+# https://dev.to/drewmullen/terraform-use-a-variable-s-value-to-define-another-variable-25o
+#
+# additional workaround (using `locals`) is from me.
 locals {
   __fqdn_dash  = replace(var.fqdn, ".", "-")
   __user_name = var.user_name == "" ? join("", [var.resource_prefix, "user-", local.__fqdn_dash]) : var.user_name
