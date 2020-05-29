@@ -8,3 +8,9 @@ gem "jekyll"
 
 # for broken links in generated files
 gem "html-proofer"
+
+# for generating QR code images
+gem "rqrcode"
+
+# for rake tasks
+gem "rake"
