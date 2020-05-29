@@ -1,0 +1,13 @@
+require "rqrcode"
+
+
+task default: %w[qr_code_svg]
+
+desc "Create QR code for the URL of the site"
+task :qr_code_svg do
+  puts "Generating QR code for the site URL"
+  qrcode = RQRCode::QRCode.new("http://info.i.mkrsgh.org")
+  File.open("info.i.mkrsgh.org.svg", "w") do |f|
+    f.write qrcode.as_svg
+  end
+end
