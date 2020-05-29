@@ -28,7 +28,4 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
 
       - name: Run htmlproofer
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: _site
-          arguments: --url-ignore "/^#$/" --disable-external
+        run: bundle exec htmlproofer --url-ignore "/^#$/" --disable-external _site/
