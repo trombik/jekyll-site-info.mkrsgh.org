@@ -1,3 +1,14 @@
+# `S3` bucket on AWS
+
+The site is deployed to `S3` bucket as a static site. To create the bucket and
+other resources, `terraform` is used.
+
+Assuming you have completed `terraform` and `awscli` setup, you can create the
+resources by running:
+
+```console
+terraform apply plans/prod
+```
 
 ## PGP public key
 
