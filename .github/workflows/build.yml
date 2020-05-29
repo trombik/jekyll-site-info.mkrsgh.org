@@ -26,3 +26,9 @@ jobs:
 
       - name: install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
+
+      - name: Run htmlproofer
+        uses: chabad360/htmlproofer@v1.1
+        with:
+          directory: _site
+          arguments: --url-ignore "/^#$/" --disable-external
