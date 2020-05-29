@@ -17,6 +17,7 @@ See `[_terraform](../_terraform)` for details..
 
 The following GitHub Secrets must be set in the repository:
 
+- `AWS_REGION`
 - `S3_BUCKET_NAME`
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
