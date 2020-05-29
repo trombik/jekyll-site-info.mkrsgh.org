@@ -11,7 +11,7 @@ bucket files.
 Before deploying, you need to create resources in AWS, such as a bucket, a
 user, and ACLs. You need to do this once before initial deployment.
 
-See `[_terraform](../_terraform)` for details..
+See [`_terraform`](../_terraform) for details..
 
 ## Configuration
 
