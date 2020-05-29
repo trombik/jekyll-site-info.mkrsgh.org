@@ -1,13 +1,22 @@
 require "rqrcode"
 
+urls = [
+  "http://info.mkrsgh.org",
+  "http://info.mkrsgh.org/hotel",
+  "http://info.mkrsgh.org/makerspace"
+]
 
-task default: %w[qr_code_svg]
+def qrcode_url(url)
+  RQRCode::QRCode.new(url)
+end
 
-desc "Create QR code for the URL of the site"
-task :qr_code_svg do
-  puts "Generating QR code for the site URL"
-  qrcode = RQRCode::QRCode.new("http://info.mkrsgh.org")
-  File.open("info.mkrsgh.org.svg", "w") do |f|
-    f.write qrcode.as_svg
+task default: urls
+
+urls.each do |url|
+  desc "Generate QR Code for #{url}"
+  task url do
+    File.open("#{url.gsub(%r{[/]}, '-')}.qrcode.svg", "w") do |f|
+      f.write qrcode_url(url).as_svg
+    end
   end
 end
