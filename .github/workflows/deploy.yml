@@ -1,0 +1,29 @@
+---
+name: deploy-jekyll
+on:
+  push:
+    branches:
+      - devel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-1
+      - name: Setup ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: Install bundler
+        run: gem install bundler
+      - name: Install gems
+        run: bundle install
+      - name: Build static site
+        run: bundle exec jekyll build
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
