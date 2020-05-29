@@ -106,9 +106,14 @@ resource "aws_s3_bucket" "bucket_deploy_jekyll" {
   }
 }
 
+output "site_url" {
+  value = aws_s3_bucket.bucket_deploy_jekyll.website_endpoint
+}
+
 output "access_key" {
   value = aws_iam_access_key.access_key_deploy_jekyll.id
 }
+
 # Output the generated secret access key after `apply`
 # The value is encrypted by the PGP key above
 output "secret_access_key" {
