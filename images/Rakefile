@@ -1,4 +1,5 @@
 require "rqrcode"
+require "shellwords"
 
 urls = [
   "http://info.mkrsgh.org",
@@ -10,13 +11,25 @@ def qrcode_url(url)
   RQRCode::QRCode.new(url)
 end
 
+def url_safe_filename_from_url(url)
+  "#{url.gsub(%r{[/]}, '-')}"
+end
+
 task default: urls
 
 urls.each do |url|
   desc "Generate QR Code for #{url}"
-  task url do
-    File.open("#{url.gsub(%r{[/]}, '-')}.qrcode.svg", "w") do |f|
+  filename = "#{url_safe_filename_from_url(url)}.qrcode.svg"
+  task filename do
+    File.open(filename, "w") do |f|
       f.write qrcode_url(url).as_svg
     end
+  end
+
+  desc "Convert SVG to PDF for #{url}"
+  output = "#{url_safe_filename_from_url(url)}.pdf"
+  input = "#{url_safe_filename_from_url(url)}.svg"
+  task output do
+    sh "inkscape #{input.shellescape} --export-area-page --without-gui --export-pdf-version=1.5 --export-pdf=#{output.shellescape}"
   end
 end
