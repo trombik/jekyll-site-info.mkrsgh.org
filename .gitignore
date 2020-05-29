@@ -8,3 +8,6 @@ vendor/
 .bundle/
 node_modules/
 .jekyll-cache/
+*.tfstate
+*.tfstate.backup
+_terraform/.terraform
