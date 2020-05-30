@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "rqrcode"
 require "shellwords"
 
@@ -12,7 +14,7 @@ def qrcode_url(url)
 end
 
 def url_safe_filename_from_url(url)
-  "#{url.gsub(%r{[/]}, '-')}"
+  url.gsub(%r{[/]}, "-").to_s
 end
 
 task default: urls
@@ -30,6 +32,7 @@ urls.each do |url|
   output = "#{url_safe_filename_from_url(url)}.pdf"
   input = "#{url_safe_filename_from_url(url)}.svg"
   task output do
-    sh "inkscape #{input.shellescape} --export-area-page --without-gui --export-pdf-version=1.5 --export-pdf=#{output.shellescape}"
+    sh "inkscape #{input.shellescape} --export-area-page " \
+       "--without-gui --export-pdf-version=1.5 --export-pdf=#{output.shellescape}"
   end
 end
