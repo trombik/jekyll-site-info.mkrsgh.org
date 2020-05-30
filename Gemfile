@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 # to publish on github page
@@ -6,11 +8,12 @@ source "https://rubygems.org"
 # to publich without github page
 gem "jekyll"
 
-# for broken links in generated files
-gem "html-proofer"
-
 # for generating QR code images
 gem "rqrcode"
 
 # for rake tasks
 gem "rake"
+
+# for CI
+gem "html-proofer"
+gem "rubocop"
