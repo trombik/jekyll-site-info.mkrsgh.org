@@ -5,6 +5,7 @@ provider "aws" {
 module "deploy" {
   source = "../../modules/deploy"
   fqdn = "info.mkrsgh.org"
+  bucket_name = "info.mkrsgh.org"
   pgp_file = "${path.module}/pgp_public_key.b64"
   force_destroy_bucket = true
 }
