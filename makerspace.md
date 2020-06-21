@@ -7,6 +7,10 @@ permalink: /makerspace/
 toc: false
 
 makers_menu:
+  - title: About
+    icon: fa-question
+    summary: <p>About the makerspace</p>
+    href: /makerspace/about/
   - title: Policy
     icon: fa-file-text-o
     summary: <p>Please have a look at our policy at makerspace, including opening hours, dos and donts, and qualifications</p>
