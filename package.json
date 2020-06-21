@@ -1,5 +1,6 @@
 {
     "dependencies": {
+        "browser-sync": "^2.26.7",
         "markdownlint-cli": "~0.22.0"
     }
 }
