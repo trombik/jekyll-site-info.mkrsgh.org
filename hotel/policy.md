@@ -1,6 +1,5 @@
 ---
 title: Hotel policy
-keywords: ""
 summary: |
   Our hotel policy.
 
@@ -20,13 +19,11 @@ We accept the following payments:
 1. Cash in USD
 1. Payment accepted upon online booking
 
-### Cancellation
-
-TBW
-
 ### Check-in and check-out
 
-TBW
+|-----------|-------|
+| Check-in  | 14:00 |
+| Check-out | 11:00 |
 
 ### Smoking
 
@@ -53,7 +50,7 @@ The following items are prohibited:
 
 ### Noise
 
-From 22:00 to 5:00, please keep quiet. Public spaces, excluding back garden,
+From 22:00 to 6:00, please keep quiet. Public spaces, excluding back garden,
 are open all day, but please keep quiet at night. Please respect other guests,
 and neighbors.
 
@@ -74,27 +71,27 @@ Late check-out is available upon availability for free. Please ask.
 
 If you will arrive late, after 20:00, please let us know in advance.
 
-### Children
-
-TBW
-
-### Damage to hotel property
-
-TBW
-
 ### Pets
 
-TBW
+Pets are not allowed. Service dogs are welcome. We do not charge for a service
+dog. We follow the following rules:
+
+- Not petting the service dog
+- Speaking to or teasing the service dog
+- No feeding the service dog
+
+If you stay with a service dog, please kindly contact us in advance.
 
 ### Visitors
 
 Visitors are allowed from 9:00 to 19:00. All visitors must identify themselves
-by showing us ID or passport.
+by showing us ID or passport. Visitors are not allowed in work areas (see [our
+policies at the makerspace](../makerspace/policy).
 
 ### Lost and found
 
 We keep found items for one week. If we know your contact, we try our best to
-contact you. After that period, TBW
+contact you.
 
 ### No discriminations
 
@@ -111,7 +108,3 @@ We do not discriminate anyone on the grounds of:
 1. Political belief or activity.
 
 We do not tolerate the discriminations by anyone at the property.
-
-### Right to refuse service
-
-TBW

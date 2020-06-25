@@ -7,8 +7,16 @@ summary: |
 
 ## One day tour
 
+TBW
+
 ## Half day tour
+
+TBW
 
 ## Customized tour
 
+TBW
+
 ## Other tours
+
+TBW
