@@ -22,7 +22,7 @@ summary: |
 
 ## Machines
 
-- 3D Printer [<span class="badge badge-pill badge-warning">Safety</span>](../safety/3D_Printer) [<span class="badge badge-pill badge-info">Course</span>](../courses/3D_printing) [<span class="badge badge-pill badge-primary">Reservation</span>](../reservation)
+- 3D Printer [<span class="badge badge-pill badge-warning">Safety</span>](../safety/3D_Printer) [<span class="badge badge-pill badge-info">Course</span>](../courses/3D_Printing_Basic) [<span class="badge badge-pill badge-primary">Reservation</span>](../reservation)
 - Laser cutter [<span class="badge badge-pill badge-warning">Safety</span>](../safety/Laser_Cutter) [<span class="badge badge-pill badge-primary">Reservation</span>](../reservation)
 
 ## Information Technology
