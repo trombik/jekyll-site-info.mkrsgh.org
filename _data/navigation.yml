@@ -28,6 +28,10 @@ makerspace:
         url: /makerspace/badges/
       - title: About the makerspace
         url: /makerspace/about/
+      - title: Donating
+        url: /makerspace/donating/
+      - title: Education
+        url: /makerspace/education/
 hotel:
   - title: Guesthouse
     children:
