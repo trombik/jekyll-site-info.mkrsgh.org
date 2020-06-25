@@ -1,0 +1,43 @@
+---
+main:
+  - title: Makerspace
+    url: /makerspace/
+  - title: Hotel
+    url: /hotel/
+
+makerspace:
+  - title: Makerspace
+    children:
+      - title: Home
+        url: /makerspace/
+      - title: Safety
+        url: /makerspace/safety/
+      - title: Tools and Equipment
+        url: /makerspace/tools/
+      - title: Reservation
+        url: /makerspace/reservation/
+      - title: Courses
+        url: /makerspace/courses/
+      - title: Memberships
+        url: /makerspace/memberships/
+      - title: Supplies
+        url: /makerspace/supplies/
+      - title: Policy
+        url: /makerspace/policy/
+      - title: Badges
+        url: /makerspace/badges/
+hotel:
+  - title: Guesthouse
+    children:
+      - title: Home
+        url: /hotel/
+      - title: Policy
+        url: /hotel/policy/
+      - title: Getting around
+        url: /hotel/getting-around/
+      - title: Services
+        url: /hotel/services/
+      - title: Tours
+        url: /hotel/tours/
+      - title: Understanding
+        url: /hotel/understanding/

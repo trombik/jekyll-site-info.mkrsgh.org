@@ -17,3 +17,6 @@ gem "rake"
 # for CI
 gem "html-proofer"
 gem "rubocop"
+
+gem 'jekyll-browsersync', group: [:jekyll_plugins]
+gem "minimal-mistakes-jekyll"

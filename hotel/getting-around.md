@@ -4,8 +4,8 @@ tags:
   - hotel
 summary: |
   Various ways to explore Siem Riap.
-sidebar: hotel_sidebar
-toc: true
+sidebar:
+  nav: hotel
 
 ---
 
