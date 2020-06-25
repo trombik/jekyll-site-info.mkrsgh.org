@@ -4,8 +4,8 @@ tags:
   - hotel
 summary: |
   The history, facts, and culture.
-sidebar: hotel_sidebar
-toc: true
+sidebar:
+  nav: hotel
 
 ---
 

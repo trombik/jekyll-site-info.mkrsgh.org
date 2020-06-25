@@ -5,8 +5,8 @@ tags:
   - hotel
 summary: |
   Our hotel policy.
-sidebar: hotel_sidebar
-toc: true
+sidebar:
+  nav: hotel
 
 ---
 

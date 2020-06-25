@@ -8,27 +8,19 @@ arguments:
 {%- endcomment %}
 {%- assign menus = include.items %}
 <!-- _includes/local/kb_menu.html -->
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">{{ include.title | default: "Menus" }}</h2>
-    </div>
-    {%- for menu in menus %}
-    <div class="col-md-3 col-sm-6">
-        <div class="panel panel-default">
-            <div class="panel-heading text-center">
-                <span class="fa-stack fa-5x">
-                <a href="{{ menu.href }}">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa {{ menu.icon }} fa-stack-1x fa-inverse"></i>
-                </a>
-                </span>
-            </div>
-            <div class="panel-body">
-                <h4 class="text-center">{{ menu.title }}</h4>
-                {{ menu.summary }}
-                <a href="{{ menu.href }}" class="btn btn-primary">Learn More</a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="wrimagecard wrimagecard-topimage">
+                 <a href="#">
+                     <div class="wrimagecard-topimage_header" style="background-color:  rgba(51, 105, 232, 0.1)">
+                        <center><i class="fa fa-area-chart" style="color:#BB7824"></i></center>
+                     </div>
+                     <div class="wrimagecard-topimage_title">
+                        <h4>Charts<div class="pull-right badge">18</div></h4>
+                     </div>
+                 </a>
             </div>
         </div>
     </div>
-    {%- endfor %}
 </div>
