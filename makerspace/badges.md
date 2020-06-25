@@ -49,8 +49,7 @@ When you solder something, you must have _Solder_ badge.
         <img src="/assets/img/badges/3D_CAD.png" class="card-img-top" alt="Solder badge">
         <div class="card-body">
           <h5 class="card-title">3D CAD</h5>
-          <p class="card-text">You are able to design 3D objects
-          them</p>
+          <p class="card-text">You are able to design 3D objects</p>
         </div>
       </div>
     </div>
@@ -82,7 +81,7 @@ When you solder something, you must have _Solder_ badge.
         <div class="card-body">
           <h5 class="card-title">Oscillo</h5>
           <p class="card-text">You are able to operate oscilloscopes and
-          masure signals</p>
+          visualize signals in a circuit</p>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ We provide courses for beginner members. All courses include necessary
 texts, materials and parts. Participants will receive [badges](../badges) after
 accomplishing each course. The language used in courses is strictly English.
 
-Courses are open to members and non-members. None-members are welcome to
+Courses are open to members and non-members. Non-members are welcome to
 participate, but not allowed to use work areas, tools, and machines after the
 course.
 
@@ -19,7 +19,7 @@ Courses are free for Cambodian nationals. Please contact us for availability.
 
 We provide free courses for a group of Cambodian students. If you are an
 educator who wants to use our courses as part of your education programs, we
-are happy to help.
+are happy to help ([how?](../education)).
 
 ## Available courses
 

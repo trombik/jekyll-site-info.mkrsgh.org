@@ -5,6 +5,12 @@ summary: |
 
 ---
 
+Courses are available for items with <span class="badge badge-pill badge-info">Course</span>.
+{: .notice--info }
+
+To use items labeled with <span class="badge badge-pill badge-warning">Safety</span>, you need a corresponding badge. For more details about our badge system, see [Badges](../badges).
+{: .notice--info }
+
 ## Power Tools
 
 - Electric Drills [<span class="badge badge-pill
