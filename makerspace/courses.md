@@ -1,7 +1,5 @@
 ---
 title: Courses
-tags:
-  - makerspace
 sidebar:
   nav: makerspace
 

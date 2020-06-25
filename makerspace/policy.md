@@ -1,9 +1,5 @@
 ---
 title: Policy
-tags:
-  - makerspace
-sidebar:
-  nav: makerspace
 
 ---
 

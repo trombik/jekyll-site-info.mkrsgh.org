@@ -1,10 +1,5 @@
 ---
 title: Hotel Portal
-keywords: ""
-tags:
-sidebar:
-  nav: hotel
-permalink:
 hotel_menu:
   - icon: fa-file-text-o
     title: Hotel policy

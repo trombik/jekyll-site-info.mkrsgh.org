@@ -1,11 +1,7 @@
 ---
 title: Tools and Equipment
-tags:
-  - makerspace
 summary: |
   See a list of available tools and equipment at Makers.
-sidebar:
-  nav: makerspace
 
 ---
 
