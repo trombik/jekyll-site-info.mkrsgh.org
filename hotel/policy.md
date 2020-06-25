@@ -86,7 +86,7 @@ If you stay with a service dog, please kindly contact us in advance.
 
 Visitors are allowed from 9:00 to 19:00. All visitors must identify themselves
 by showing us ID or passport. Visitors are not allowed in work areas (see [our
-policies at the makerspace](../makerspace/policy).
+policies at the makerspace](../../makerspace/policy).
 
 ### Lost and found
 
