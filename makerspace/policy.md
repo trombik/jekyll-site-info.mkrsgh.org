@@ -25,7 +25,7 @@ following policies.
 ## Sharing tools, equipment and machines
 
 We have limited number of tools, equipment, and machines. First come, first
-serve. Some machines are available for [reservation](reservation).
+serve. Some machines are available for [reservation](../reservation).
 
 ## Food and drinks
 
@@ -34,7 +34,7 @@ designated work areas unless otherwise noted.
 
 ## Badges
 
-We have [badge system](badge). Your badge card is a card to show your
+We have [badge system](../badges). Your badge card is a card to show your
 abilities and safety clearance. Certain machines, areas, and works require
 specific badges. To obtain a badge, you need to take our courses, or
 demonstrate your abilities in a specific area to staff members. Badge card has
