@@ -1,12 +1,8 @@
 ---
 title: Hotel policy
 keywords: ""
-tags:
-  - hotel
 summary: |
   Our hotel policy.
-sidebar:
-  nav: hotel
 
 ---
 

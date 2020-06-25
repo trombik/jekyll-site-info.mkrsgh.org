@@ -1,11 +1,7 @@
 ---
 title: Tours
-tags:
-  - hotel
 summary: |
   Local tours available at Makers
-sidebar:
-  nav: hotel
 
 ---
 
