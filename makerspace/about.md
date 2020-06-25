@@ -1,7 +1,5 @@
 ---
 title: About the Makerspace
-tags:
-  - makerspace
 summary: |
   General information about Makers
 sidebar: makerspace_sidebar
