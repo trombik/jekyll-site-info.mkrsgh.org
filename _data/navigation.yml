@@ -26,6 +26,8 @@ makerspace:
         url: /makerspace/policy/
       - title: Badges
         url: /makerspace/badges/
+      - title: About the makerspace
+        url: /makerspace/about/
 hotel:
   - title: Guesthouse
     children:
