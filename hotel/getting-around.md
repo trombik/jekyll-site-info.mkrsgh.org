@@ -1,11 +1,7 @@
 ---
 title: Getting around
-tags:
-  - hotel
 summary: |
   Various ways to explore Siem Riap.
-sidebar:
-  nav: hotel
 
 ---
 
