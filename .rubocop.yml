@@ -5,6 +5,7 @@ AllCops:
   Exclude:
     # there is no reason to test external files
     - "vendor/**/*"
+    - "node_modules/"
   DisplayCopNames: true
   ExtraDetails: true
   DisplayStyleGuide: true
