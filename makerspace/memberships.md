@@ -1,9 +1,5 @@
 ---
 title: Memberships
-tags:
-  - makerspace
-sidebar:
-  nav: makerspace
 
 ---
 

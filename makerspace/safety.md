@@ -1,7 +1,5 @@
 ---
 title: Safety
-tags:
-  - makerspace
 summary: |
   Safety is a critical part of making things. Most tools are dangerous, and
   others are lethal. Makerspace users of all ages need to be trained in safely

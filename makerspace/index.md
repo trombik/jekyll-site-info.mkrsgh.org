@@ -1,8 +1,7 @@
 ---
 title: Makerspace home
 keywords: ""
-tags:
-  - makerspace
+
 ---
 
 ## Policy
