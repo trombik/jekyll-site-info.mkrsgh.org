@@ -36,6 +36,7 @@ designated work areas unless otherwise noted.
 
 We have [badge system](../badges). Your badge card is a card to show your
 abilities and safety clearance. Certain machines, areas, and works require
-specific badges. To obtain a badge, you need to take our courses, or
-demonstrate your abilities in a specific area to staff members. Badge card has
-space to put your badges. Please wear your badge card while you work.
+specific badges. To obtain a badge, you need to take [our
+courses](../courses), or demonstrate your abilities in a specific area to
+staff members. Badge card has space to put your badges. Please wear your badge
+card while you work.
