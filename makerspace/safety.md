@@ -8,7 +8,7 @@ summary: |
 ---
 
 Safety is one of the _first_ thing you must master at Makers. We do our best
-to prevent accidents, but the last defence line is you.
+to prevent accidents, but the last defence line is always you.
 
 ## General safety guideline
 
@@ -22,7 +22,7 @@ to prevent accidents, but the last defence line is you.
 ### Attend safety class
 
 Some machines and tools require qualification for safe operation. Before using
-them, you must demonstrate your understandings.
+them, you must demonstrate your understandings. See [our badge](../badges) system.
 
 ### No drugs and no alcohol
 
@@ -67,10 +67,10 @@ Report any damage to tools, machines, and humans.
 
 Report any accidents and incidents that might cause possible accidents.
 
-### Rule Violations
+### Rule violations
 
 We reserve the right to refuse to service to anyone and terminate memberships
-upon violations.
+upon violations. No refunds.
 
 ### Wear your badge
 
