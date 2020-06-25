@@ -13,7 +13,7 @@ You will learn basic programming by `arduino`, a computer language for
 beginners.
 
 After successful completion of the course assignment, you will receive
-_Blink_ [badge](../../badges/). The development board, an LED, and 
+_Blink_ [badge](../../badges/).
 
 The class takes 2 hours including a 10 minutes break.
 

@@ -60,11 +60,11 @@ circuits ([read more](Oscilloscope)).
 
 This is a list of planned courses.
 
-#### Routing
+### Routing
 
 You will learn basics of L3 routing and TCP/IP.
 
-#### WiFi
+### WiFi
 
 You will learn basics of WiFi networking, including basic 802.11 technologies,
 site survey, and designing access point locations.

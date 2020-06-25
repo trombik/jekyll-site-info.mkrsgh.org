@@ -7,7 +7,7 @@ summary: |
 
 ---
 
-## We are working on it!
+## We are working on it
 
 Re-selling supplies, consumables, and parts is on our TODO list. However, due
 to global logistics and supply issues, it is not feasible yet. We provide
