@@ -23,4 +23,24 @@ hotel_menu:
     href: /hotel/understanding/
 ---
 
-Hotel
+## Customer portal for hotel guests
+
+### [Hotel policy](policy)
+
+Please have a look at our hotel policy, including checkout time, opening hours, etc.
+
+### [Our services](services)
+
+Available our services during your stay, food, drinks, common spaces, utilities.
+
+### [Getting around](getting-around)
+
+Access to Angkor Wat, temples, night spots, restaurants, markets, and more!
+
+### [Tours](tours)
+
+Our local tuk-tuk tours! Not only Angkor Wat, but water reservoirs, local markets.
+
+### [Understanding](understanding)
+
+The history, facts, and culture of Cambodia.
