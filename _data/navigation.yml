@@ -34,8 +34,6 @@ makerspace:
         url: /makerspace/donating/
       - title: Education
         url: /makerspace/education/
-      - title: Blog
-        url: /makerspace/blog/
 hotel:
   - title: Guesthouse
     children:
