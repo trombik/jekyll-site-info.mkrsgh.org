@@ -2,3 +2,4 @@
 default: True
 no-inline-html: False
 line-length: False
+no-bare-urls: false
