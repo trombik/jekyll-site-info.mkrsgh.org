@@ -20,3 +20,4 @@ gem "rubocop"
 
 gem "jekyll-browsersync", group: [:jekyll_plugins]
 gem "minimal-mistakes-jekyll"
+gem "jekyll-youtube", group: [:jekyll_plugins]
