@@ -50,7 +50,8 @@ situation in the country. This is the first activity of the project.
 ## The situation in Cambodia
 
 <figure>
-    <img src="/assets/img/Closed-Stalls-in-Front-of-Market.jpg">
+    <img src="/assets/img/Closed-Stalls-in-Front-of-Market.jpg" alt="Most of
+    street vendors are gone. Siem Reap">
     <figcaption>Most of street vendors are gone. Siem Reap</figcaption>
 </figure>
 
@@ -128,15 +129,17 @@ ruled the country for more than three decades. That means no foreign tourists
 in foreseeable future.
 
 <figure class="half">
-    <a href="/assets/img/International-Arrivals-2015-2019.svg"><img src="/assets/img/International-Arrivals-2015-2019.svg"></a>
-    <a href="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg"><img src="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg"></a>
+    <a href="/assets/img/International-Arrivals-2015-2019.svg"><img src="/assets/img/International-Arrivals-2015-2019.svg" alt="International tourist arrivals from 2015 to 2019, data from Ministry of Tourism></a>
+    <a href="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg"><img src="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg alt="International tourist arrivals, year on year, data from Ministry of Tourism"></a>
     <figcaption>International tourist arrivals, data from Ministry of Tourism, created by Tomoyuki Sakurai</figcaption>
 </figure>
 
 ## The situation in Siem Reap
 
 <figure>
-    <img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg">
+    <img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg" alt="Business
+    for sale, a familiar sign in the town. Many businessess are closed
+    indefinitely, or on sale. Pub Street, Siem Reap">
     <figcaption>"Business for sale", a familiar sign in the town. Many businessess are closed indefinitely, or on sale. Pub Street, Siem Reap</figcaption>
 </figure>
 
@@ -159,7 +162,8 @@ many of them will be able to stay afloat. Kids are at home all the day. No
 education. Teachers lost their income. Everyone suffers.
 
 <figure>
-    <img src="/assets/img/Kids-at-Home.jpg">
+    <img src="/assets/img/Kids-at-Home.jpg" alt="Kids playing a game app on
+    smartphone. They play games everyday, said the mother. Wat Bo, Siem Reap">
     <figcaption>Kids playing a game app on smartphone. "They play games
     everyday", said the mother. Wat Bo, Siem Reap</figcaption>
 </figure>
@@ -177,7 +181,9 @@ to survive. They decided to do whatever they can do in the hardship.
 ## The project begins
 
 <figure>
-    <img src="/assets/img/Cheng_Lay_Guesthouse_and_Staffs.jpg">
+    <img src="/assets/img/Cheng_Lay_Guesthouse_and_Staffs.jpg" alt="My
+    favorite family-owned guesthouse, Cheng Lay Guesthouse, is open again
+    after 2 months. They are a lucky exception. Soksan Rd, Siem Reap">
     <figcaption>My favorite family-owned guesthouse, Cheng Lay Guesthouse, is
     open again after 2 months. They are a lucky exception. Soksan Rd, Siem
     Reap</figcaption>
