@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/img/george-bakos-OvEr7BwXxxg.jpg
   overlay_filter: 0.5
   show_overlay_excerpt: false
-  caption: Photo by <a href="https://unsplash.com/@georgebakos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">George Bakos</a> on <a href="/s/photos/cambodia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+  caption: Photo by <a href="https://unsplash.com/@georgebakos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">George Bakos on Unsplash</a>
 
 ---
 
