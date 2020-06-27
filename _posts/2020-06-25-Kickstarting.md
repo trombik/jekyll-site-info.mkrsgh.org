@@ -50,7 +50,7 @@ situation in the country. This is the first activity of the project.
 ## The situation in Cambodia
 
 <figure>
-	<img src="/assets/img/Closed-Stalls-in-Front-of-Market.jpg">
+    <img src="/assets/img/Closed-Stalls-in-Front-of-Market.jpg">
     <figcaption>Most of street vendors are gone. Siem Reap</figcaption>
 </figure>
 
@@ -75,8 +75,8 @@ per capita in 2018 was [USD
 [32.8%](https://knoema.com/atlas/Cambodia/topics/Tourism/Travel-and-Tourism-Total-Contribution-to-GDP/Contribution-of-travel-and-tourism-to-GDP-percent-of-GDP).
 
 <figure class="half">
-<iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.PCAP.CD&locations=Z4-Z7-KH-XU&start=1993" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
-<iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.PCAP.CD&locations=KH-TH-MY-ID-VN&start=2000" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.PCAP.CD&locations=Z4-Z7-KH-XU&start=1993" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.PCAP.CD&locations=KH-TH-MY-ID-VN&start=2000" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
     <figcaption>GDP per capita, World Bank</figcaption>
 </figure>
 
@@ -136,8 +136,8 @@ in foreseeable future.
 ## What is happening in Siem Reap?
 
 <figure>
-	<img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg">
-	<figcaption>"Business for sale", a familiar sign in the town. Many businessess are closed indefinitely, or on sale. Pub Street, Siem Reap</figcaption>
+    <img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg">
+    <figcaption>"Business for sale", a familiar sign in the town. Many businessess are closed indefinitely, or on sale. Pub Street, Siem Reap</figcaption>
 </figure>
 
 After the pandemic hit the rest of world, what happened in Siem Reap? Cambodia
@@ -159,7 +159,7 @@ many of them will be able to stay afloat. Kids are at home all the day. No
 education. Teachers lost their income. Everyone suffers.
 
 <figure>
-	<img src="/assets/img/Kids-at-Home.jpg">
+    <img src="/assets/img/Kids-at-Home.jpg">
     <figcaption>Kids playing a game app on smartphone. "They play games
     everyday", said the mother. Wat Bo, Siem Reap</figcaption>
 </figure>
@@ -174,10 +174,10 @@ Their property (where I am writing this post, by the way) is still open, but
 mostly empty. Their employees and local tuk-tuk drivers desperately need money
 to survive. They decided to do whatever they can do in the hardship.
 
-## My question: "What can I do for them?"
+## The project begins
 
 <figure>
-	<img src="/assets/img/Cheng_Lay_Guesthouse_and_Staffs.jpg">
+    <img src="/assets/img/Cheng_Lay_Guesthouse_and_Staffs.jpg">
     <figcaption>My favorite family-owned guesthouse, Cheng Lay Guesthouse, is
     open again after 2 months. They are a lucky exception. Soksan Rd, Siem
     Reap</figcaption>
@@ -187,9 +187,10 @@ I have never given money to beggars in my life because that will not help
 them. Giving money to beggars encourages them to return to the street. In
 general, the purpose of helping others should be making them independent from
 the help, not just because you are sorry about them. Cambodians never asked me
-money. They ask jobs. I cannot give the opportunity to them, yet, but I can do
-something others cannot. I would like to help those who help themselves, which
-is the one of my project's goals.
+money. They ask jobs. I cannot give the opportunity to them, yet, but I can
+do something others cannot. They need guides, or assistance, not just money. I
+would like to help those who help themselves, which is the one of my project's
+goals.
 
 Are you still withe me? Of course, you are. You have finished reading a rather
 long story. Here is the reward for it: [the project proposal].
