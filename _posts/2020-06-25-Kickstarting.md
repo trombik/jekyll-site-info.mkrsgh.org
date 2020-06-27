@@ -133,7 +133,7 @@ in foreseeable future.
     <figcaption>International tourist arrivals, data from Ministry of Tourism, created by Tomoyuki Sakurai</figcaption>
 </figure>
 
-## What is happening in Siem Reap?
+## The situation in Siem Reap
 
 <figure>
     <img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg">
