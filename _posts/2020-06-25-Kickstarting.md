@@ -129,8 +129,8 @@ ruled the country for more than three decades. That means no foreign tourists
 in foreseeable future.
 
 <figure class="half">
-    <a href="/assets/img/International-Arrivals-2015-2019.svg"><img src="/assets/img/International-Arrivals-2015-2019.svg" alt="International tourist arrivals from 2015 to 2019, data from Ministry of Tourism></a>
-    <a href="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg"><img src="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg alt="International tourist arrivals, year on year, data from Ministry of Tourism"></a>
+    <a href="/assets/img/International-Arrivals-2015-2019.svg"><img src="/assets/img/International-Arrivals-2015-2019.svg" alt="International tourist arrivals from 2015 to 2019, data from Ministry of Tourism"></a>
+    <a href="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg"><img src="/assets/img/Year-on-year-tourists-arrival-2019-and-2020.svg" alt="International tourist arrivals, year on year, data from Ministry of Tourism"></a>
     <figcaption>International tourist arrivals, data from Ministry of Tourism, created by Tomoyuki Sakurai</figcaption>
 </figure>
 
