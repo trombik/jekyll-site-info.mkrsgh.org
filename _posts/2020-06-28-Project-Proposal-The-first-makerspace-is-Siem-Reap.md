@@ -304,15 +304,15 @@ safety. Provide free courses for locals, including students.
 
 Courses include:
 
-- [Blink](../makerspace/courses/Blink): the very first programming and
+- [Blink](../../../../makerspace/courses/Blink): the very first programming and
   experiment of IoT
-- [3D CAD Basic](../makerspace/courses/3D_CAD_Basic): design basic 3D objects
+- [3D CAD Basic](../../../../makerspace/courses/3D_CAD_Basic): design basic 3D objects
   with 3D CAD application
-- [3D Printing Basic](../makerspace/courses/3D_Printing_Basic): print 3D
+- [3D Printing Basic](../../../../makerspace/courses/3D_Printing_Basic): print 3D
   objects from `.stl` files
-- [Soldering](../makerspace/courses/Soldering): solder passive components,
+- [Soldering](../../../../makerspace/courses/Soldering): solder passive components,
   sockets, and pins on PCB
-- [Oscilloscope](../makerspace/courses/Oscilloscope): visualize electronic
+- [Oscilloscope](../../../../makerspace/courses/Oscilloscope): visualize electronic
   signals to debug electronic circuits
 
 Topics in each course include:
