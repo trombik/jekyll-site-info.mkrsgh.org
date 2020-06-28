@@ -199,4 +199,5 @@ would like to help those who help themselves, which is the one of my project's
 goals.
 
 Are you still withe me? Of course, you are. You have finished reading a rather
-long story. Here is the reward for it: [the project proposal].
+long story. Here is a reward for it: [the project
+proposal](../../../2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap.html)
