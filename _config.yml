@@ -58,14 +58,6 @@ social:
   name:  # If the user or organization name differs from the site's name
   links:  # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider: false  # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id:
-    anonymize_ip:  # true, false (default)
-
-
 # Site Author
 author:
   name: Makers Guesthouse
@@ -277,3 +269,6 @@ after_footer_scripts:
   - https://code.jquery.com/jquery-3.5.1.slim.min.js
   - https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js
   - https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
+analytics:
+  provider: google-gtag
+  tracking_id: UA-84377192-4
