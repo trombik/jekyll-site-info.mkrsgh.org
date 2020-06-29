@@ -33,6 +33,6 @@ jobs:
       - name: Install gems
         run: bundle install
       - name: Build static site
-        run: bundle exec jekyll build
+        run: env JEKYLL_ENV=production bundle exec jekyll build
       - name: Deploy static site to S3 bucket
         run: aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
