@@ -19,8 +19,8 @@ gem "html-proofer"
 gem "rubocop"
 
 group :jekyll_plugins do
-  gem "jekyll-polyglot"
   gem "jekyll-browsersync"
+  gem "jekyll-polyglot"
   gem "jekyll-youtube"
 end
 gem "minimal-mistakes-jekyll"
