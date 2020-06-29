@@ -5,7 +5,6 @@ host: 127.0.0.1
 port: 4000
 
 minimal_mistakes_skin: "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-locale: "en-US"
 title: "info.mkrsgh.org"
 title_separator: "-"
 subtitle:  # site tagline that appears below site title in masthead
@@ -110,8 +109,7 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  # XXX do not use wildcard here. see https://github.com/untra/polyglot/issues/30
   - vendor
   - .asset-cache
   - .bundle
@@ -167,6 +165,8 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # XXX SCSS generation broken in Jekyll 4.0 https://github.com/untra/polyglot/issues/107
+  sourcemap: never
 
 
 # Outputting
@@ -184,6 +184,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-youtube
+  - jekyll-polyglot
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -273,3 +274,12 @@ analytics:
   provider: google-gtag
   google:
     tracking_id: UA-84377192-4
+
+languages:
+  - en
+  - ja
+default_lang: en
+exclude_from_localization:
+  - assets
+  - images
+parallel_localization: true
