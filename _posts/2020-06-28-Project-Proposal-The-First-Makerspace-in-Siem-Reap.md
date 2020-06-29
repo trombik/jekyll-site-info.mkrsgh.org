@@ -44,7 +44,7 @@ examples. Histories tells us that technology is not an antonym of tradition,
 but the tradition is the product of technologies.
 
 After the pandemic, local businesses in Siem Reap are suffering the impact to
-the economy. Some businesses stooped operations, and lucky ones are waiting
+the economy. Some businesses stopped operations, and lucky ones are waiting
 for buyers of the business. Even if the government opens boarders and
 airports, which is not likely to happen in the near future, the tourism would
 be restricted by external factors, i.e. policies of other countries. Some are
