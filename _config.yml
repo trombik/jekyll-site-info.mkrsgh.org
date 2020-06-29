@@ -271,4 +271,5 @@ after_footer_scripts:
   - https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
 analytics:
   provider: google-gtag
-  tracking_id: UA-84377192-4
+  google:
+    tracking_id: UA-84377192-4
