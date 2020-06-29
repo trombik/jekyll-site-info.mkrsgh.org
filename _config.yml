@@ -44,7 +44,7 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: mkrsgh
+  username: ytrombik
 facebook:
   username:
   app_id:
@@ -73,10 +73,10 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/mkrsgh
+      url: https://twitter.com/ytrombik
     - label: GitHub
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mkrsgh"
+      url: "https://github.com/trombik"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
