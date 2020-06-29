@@ -1,0 +1,22 @@
+{% assign page = include.page %}
+<!-- _includes/local/lang_menu.html -->
+<div class="dropdown">
+  <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="flag-icon flag-icon-{{ site.data.lang.cc[site.active_lang] }}"> </span> {{ site.data.lang.name[site.active_lang] }}
+  </button>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    {% for lang in site.languages %}
+    {% if lang == site.default_lang %}
+    <a class="dropdown-item" href=" {{ page.url }}">
+    {% else %}
+    <a class="dropdown-item" href=" /{{ lang }}{{ page.url }}">
+    {% endif %}
+        <button type="button" class="btn btn-sm">
+            <span class="flag-icon flag-icon-{{ site.data.lang.cc[lang] }}"> </span> {{ site.data.lang.name[lang] }}
+        </button>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+<!-- end of _includes/local/lang_menu.html -->
