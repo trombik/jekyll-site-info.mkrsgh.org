@@ -44,7 +44,21 @@ Googleなどで検索すると、検索結果はシェムリアップもしく�
 
 日本のニュースでもお馴染みのジョンズホプキンス大学によるCovid-19感染者数は、2020/06/27現在で130人、死者はゼロです。
 
-パンデミック以前の経済は、中国からの投資もあり、比較的好調でした。GDP成長率は年率7%、よいときでは10%を超えていました([GDP growth from World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2018&locations=KH&start=1995))。シハヌークビルというカンボジア唯一のビーチリゾートの町は中国の投資が最も盛んに行われましたが、昨年末に実施されたオンラインギャンブルの取り締まり強化、そしてパンデミックにより投資資金、投資家、中国人労働者は去ってしまいます。残されたのはカンボジア人の負債だけでした。手洗いの励行は皆さんもしていることと思いますが、「[ウイルス対策として20秒かけて手を洗うには約1.5 Lから2 Lの水が必要だ](https://www.downtoearth.org.in/blog/water/water-in-the-age-of-coronavirus-69905)」そうです。1,600万人いる国民のうち、300万人以上が安全な水にすら事欠く状況です([Cambodia's water and sanitation crisis](https://water.org/our-impact/where-we-work/cambodia/))。電気の普及率は高く、97.6%の世帯に普及していますが、一般的な電力会社による電力が供給されているのは71.5%に過ぎず、26.1%はソーラーパネルのような太陽発電もしくはバッテリーが電力供給源です。電力会社によって供給されている世帯のうち69.3%では頻繁に停電が起きます([Cambodia - Beyond connections](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/141011521693254478/cambodia-beyond-connections-energy-access-diagnostic-report-based-on-the-multi-tier-framework) World Bankより)。多くの宿泊施設ではディーゼル発電機が設置されています。
+<figure class="half">
+    <iframe width="650" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="//gisanddata.maps.arcgis.com/apps/Embed/index.html?webmap=14aa9e5660cf42b5b4b546dec6ceec7c&extent=77.3846,11.535,163.5174,52.8632&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+    <figcaption>Johns Hopkins University</figcaption>
+</figure>
+
+パンデミック以前の経済は、中国からの投資もあり、比較的好調でした。GDP成長率は年率7%、よいときでは10%を超えていました([GDP growth from World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2018&locations=KH&start=1995))。
+
+<figure class="half">
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.MKTP.KD.ZG&locations=KH&start=1995" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.MKTP.CD&locations=KH&start=1995" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <figcaption>GDP成長率 出典: World Bank</figcaption>
+</figure>
+
+
+シハヌークビルというカンボジア唯一のビーチリゾートの町は中国の投資が最も盛んに行われましたが、昨年末に実施されたオンラインギャンブルの取り締まり強化、そしてパンデミックにより投資資金、投資家、中国人労働者は去ってしまいます。残されたのはカンボジア人の負債だけでした。手洗いの励行は皆さんもしていることと思いますが、「[ウイルス対策として20秒かけて手を洗うには約1.5 Lから2 Lの水が必要だ](https://www.downtoearth.org.in/blog/water/water-in-the-age-of-coronavirus-69905)」そうです。1,600万人いる国民のうち、300万人以上が安全な水にすら事欠く状況です([Cambodia's water and sanitation crisis](https://water.org/our-impact/where-we-work/cambodia/))。電気の普及率は高く、97.6%の世帯に普及していますが、一般的な電力会社による電力が供給されているのは71.5%に過ぎず、26.1%はソーラーパネルのような太陽発電もしくはバッテリーが電力供給源です。電力会社によって供給されている世帯のうち69.3%では頻繁に停電が起きます([Cambodia - Beyond connections](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/141011521693254478/cambodia-beyond-connections-energy-access-diagnostic-report-based-on-the-multi-tier-framework) World Bankより)。多くの宿泊施設ではディーゼル発電機が設置されています。
 
 2018年の外国人旅行客は620万人でした。そのうち32%の200万人は中国から、13%がヨーロッパ各国から、4.9%が韓国から、4%がアメリカから、そして3.4%が日本からでした([Tourism statistics report year 2018](https://www.tourismcambodia.com/tourist-information/tourist-statistic.htm))。
 
