@@ -60,7 +60,7 @@ excerpt: |
 At _Makers_, I am going to provide classroom sessions for kids and students,
 focusing on a small, cool device developed by BBC, called _BBC micro:bit_.
 This is a part of my project ([the project
-proposal](../../../../blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/)).
+proposal]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/" | relative_url }})).
 
 {% youtube "https://www.youtube.com/watch?v=oNLf6aFYVoU" %}
 
