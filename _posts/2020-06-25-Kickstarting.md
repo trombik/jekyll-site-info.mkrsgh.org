@@ -84,9 +84,21 @@ per capita in 2018 was [USD
 Johns Hopkins University reports that the number of confirmed positive cases
 in the country is 130, no death (2020/06/27).
 
+<figure class="half">
+    <iframe width="650" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2019-nCoV" src="//gisanddata.maps.arcgis.com/apps/Embed/index.html?webmap=14aa9e5660cf42b5b4b546dec6ceec7c&extent=77.3846,11.535,163.5174,52.8632&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+    <figcaption>Johns Hopkins University</figcaption>
+</figure>
+
 The country's economy had been improving mostly thanks to China. Annual GDP
 growth was around 7%, sometimes more than 10% ([GDP
 growth from World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2018&locations=KH&start=1995).
+
+<figure class="half">
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.MKTP.KD.ZG&locations=KH&start=1995" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <iframe src="https://data.worldbank.org/share/widget?end=2018&indicators=NY.GDP.MKTP.CD&locations=KH&start=1995" width='450' height='300' frameBorder='0' scrolling="no" ></iframe>
+    <figcaption>GDP growth: World Bank</figcaption>
+</figure>
+
 Sihanoukville, _the_ sea resort of the country, was the major destination of
 Chinese money. After strict regulations of online gambling and the pandemic,
 all the money, investors, and Chinese workers left the town, leaving unpaid
