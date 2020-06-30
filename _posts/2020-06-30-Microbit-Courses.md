@@ -64,7 +64,6 @@ proposal](../../../../blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-S
 
 {% youtube "https://www.youtube.com/watch?v=oNLf6aFYVoU" %}
 
-
 [Wikipedia describes micro:bit](https://en.wikipedia.org/wiki/Micro_Bit) as
 
 > an open source hardware ARM-based embedded system designed by the BBC for
@@ -131,7 +130,7 @@ If you are a teacher have a look at
 project, one of many available projects, to see how students learn.
 {: .notice--info}
 
-## Are you interested?
+## If you are interested, join us and support the project
 
 As a parent, you probably need something to throw at your kids to play with.
 _Makers_ will provide micro:bit, help and assistant to teachers, and a space
