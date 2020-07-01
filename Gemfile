@@ -21,6 +21,7 @@ gem "rubocop"
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-browsersync"
+  gem "jekyll-minifier"
   gem "jekyll-polyglot"
   gem "jekyll-youtube"
 end

@@ -186,6 +186,7 @@ plugins:
   - jekyll-youtube
   - jekyll-polyglot
   - jekyll-archives
+  - jekyll-minifier
 
 # mimic GitHub Pages with --safe
 whitelist:
