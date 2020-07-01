@@ -22,5 +22,6 @@ group :jekyll_plugins do
   gem "jekyll-browsersync"
   gem "jekyll-polyglot"
   gem "jekyll-youtube"
+  gem "jekyll-archives"
 end
 gem "minimal-mistakes-jekyll"
