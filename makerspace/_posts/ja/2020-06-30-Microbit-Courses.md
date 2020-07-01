@@ -7,6 +7,8 @@ header:
   overlay_filter: 0.5
   show_overlay_excerpt: false
   caption: Photo from [microbit.org](https://microbit.org/impact/case-studies/milestones-for-the-bbc-microbit/)
+tags:
+  - 提案
 feature_row1:
   - image_path: assets/img/microbit-640x360.jpg
     alt: 子供たちが誇らしげににmicro:bitを差し出す様子
@@ -57,7 +59,7 @@ excerpt: |
 
 ## はじめに
 
-「Makers」では、英国公共放送のBBCが開発したmicro:bitという手のひらサイズのコンピュータを使い、児童と生徒向けにクラスルームを開催する計画があります。これは[提案中のプロジェクト]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/" | relative_url }}))の一部として実施されます。
+「Makers」では、英国公共放送のBBCが開発したmicro:bitという手のひらサイズのコンピュータを使い、児童と生徒向けにクラスルームを開催する計画があります。これは[提案中のプロジェクト]({{ "/ja/blog/makerspace/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/" | relative_url }})の一部として実施されます。
 
 {% youtube "https://www.youtube.com/watch?v=oNLf6aFYVoU" %}
 
@@ -109,7 +111,7 @@ micro:bitが採用されているのはイギリスだけではありません�
 - 生徒用の学習机と椅子
 - プロジェクトを支えるコミュニティ
 
-この他にもプロジェクトが必要とする[リスト]({{ "/makerspace/donating" | relative_url }})もあります。ご協力をお願い致します。
+この他にもプロジェクトが必要とする[リスト]({{ "/ja/makerspace/donating" | relative_url }})もあります。ご協力をお願い致します。
 
 シェムリアップ在住の教師の皆さま: 最新のテクノロジーを使って創造的な授業を試してみませんか?プロジェクトでは、授業計画や授業のサポートなどを支援できます。
 {: .notice--info}

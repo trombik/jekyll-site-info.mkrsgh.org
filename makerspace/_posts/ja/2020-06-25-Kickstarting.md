@@ -7,6 +7,8 @@ header:
   overlay_filter: 0.5
   show_overlay_excerpt: false
   caption: Photo by <a href="https://unsplash.com/@georgebakos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">George Bakos on Unsplash</a>
+tags:
+  - 提案
 
 ---
 
@@ -110,4 +112,4 @@ Googleなどで検索すると、検索結果はシェムリアップもしく�
 
 自分は、これまでに路上の物乞いにお金を渡したことはありません。恵んだお金が物乞いの生活を変えることはないからです。お金を渡すことで物乞いは路上で物乞いを続けるようになります。一般論として、支援はその支援を必要とすることなく、自立できることが目標であるべきです。同情は自立を妨げます。これまで、カンボジア人からは「仕事をくれ」と言われたことがありますが「金をくれ」と言われたことはありません。仕事の機会が提供できるようになるまではまだ時間がかかりますが、自分には自分なりにできることがあります。道案内や手助けは必要です。お金だけの支援ではありません。自分は、自らを助けようとする人を助けたいと思います。これはプロジェクトの目標の一つでもあります。
 
-この長い文章を読んでいただき感謝します。ご褒美として、この[プロジェクトの計画書]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap" | relative_url }})を用意しました。ぜひ、お読みください。ありがとうございました。
+この長い文章を読んでいただき感謝します。ご褒美として、この[プロジェクトの計画書]({{ "/ja/blog/makerspace/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap" | relative_url }})を用意しました。ぜひ、お読みください。ありがとうございました。
