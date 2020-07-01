@@ -6,6 +6,8 @@ header:
   overlay_filter: 0.5
   show_overlay_excerpt: false
   caption: Photo by <a href="https://unsplash.com/@georgebakos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">George Bakos on Unsplash</a>
+tags:
+  - proposal
 
 ---
 
@@ -212,4 +214,4 @@ goals.
 
 Are you still withe me? Of course, you are. You have finished reading a rather
 long story. Here is a reward for it: [the project
-proposal]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap" | relative_url }})
+proposal]({{ "/blog/makerspace/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap" | relative_url }})

@@ -6,6 +6,8 @@ header:
   overlay_filter: 0.5
   show_overlay_excerpt: false
   caption: Photo from [microbit.org](https://microbit.org/impact/case-studies/milestones-for-the-bbc-microbit/)
+tags:
+  - proposal
 feature_row1:
   - image_path: assets/img/microbit-640x360.jpg
     alt: BBC Micro:bit—a free single-board PC for every Year 7 kid in the UK
@@ -60,7 +62,7 @@ excerpt: |
 At _Makers_, I am going to provide classroom sessions for kids and students,
 focusing on a small, cool device developed by BBC, called _BBC micro:bit_.
 This is a part of my project ([the project
-proposal]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/" | relative_url }})).
+proposal]({{ "/blog/makerspace/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Reap/" | relative_url }})).
 
 {% youtube "https://www.youtube.com/watch?v=oNLf6aFYVoU" %}
 
