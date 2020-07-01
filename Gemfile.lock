@@ -43,6 +43,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-browsersync (1.0.0)
       jekyll (>= 3.0.0, < 5.0)
       tty-which (~> 0.4.1)
@@ -136,6 +138,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll
+  jekyll-archives
   jekyll-browsersync
   jekyll-polyglot
   jekyll-youtube
