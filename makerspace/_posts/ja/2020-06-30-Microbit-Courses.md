@@ -8,7 +8,7 @@ header:
   show_overlay_excerpt: false
   caption: Photo from [microbit.org](https://microbit.org/impact/case-studies/milestones-for-the-bbc-microbit/)
 tags:
-  - 提案
+  - proposal
 feature_row1:
   - image_path: assets/img/microbit-640x360.jpg
     alt: 子供たちが誇らしげににmicro:bitを差し出す様子
