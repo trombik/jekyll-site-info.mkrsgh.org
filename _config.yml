@@ -10,7 +10,7 @@ title_separator: "-"
 subtitle:  # site tagline that appears below site title in masthead
 name: "MKRS Siem Reap"
 description: "Makers Guesthouse customer portal"
-url: http://info.mkrsgh.org/
+url: http://info.mkrsgh.org
 baseurl:  # the subpath of your site, e.g. "/blog"
 repository: trombik/jekyll-site-info.mkrsgh.org
 teaser:  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
