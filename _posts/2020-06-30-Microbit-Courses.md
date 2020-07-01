@@ -141,6 +141,9 @@ project needs:
 - chairs and desks for kids
 - a community (you)
 
+In addition, we have a list of other things we need in [the donation page]({{
+"/makerspace/donating" | relative_url }}).
+
 Are you a teacher? Do you want to teach modern technologies in interesting
 ways? I need your help (and I can help you, too).
 {: .notice--info}
