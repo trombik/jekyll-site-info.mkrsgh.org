@@ -272,3 +272,10 @@ exclude_from_localization:
   - assets
   - images
 parallel_localization: true
+
+jekyll-minifier:
+  # XXX disable js compression
+  # see https://github.com/digitalsparky/jekyll-minifier/issues/51
+  compress_javascript: false
+  uglifier_args:
+    harmony: true
