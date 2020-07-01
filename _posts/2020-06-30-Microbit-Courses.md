@@ -69,7 +69,7 @@ proposal]({{ "/blog/2020/06/28/Project-Proposal-The-First-Makerspace-in-Siem-Rea
 > an open source hardware ARM-based embedded system designed by the BBC for
 > use in computer education in the UK
 
-<figure class="align-left">
+<figure class="align-right">
   <img src="{{ site.baseurl }}/assets/img/BBC_Micro_Bit_with_original_Packaging.jpg" alt="BBC Micro Bit with its original packaging behind it.">
   <figcaption>"BBC Micro Bit with its original packaging behind it. Image source: <a href="https://commons.wikimedia.org/wiki/File:BBC_Micro_Bit_with_original_Packaging.jpg">Wikipedia</a></figcaption>
 </figure>
