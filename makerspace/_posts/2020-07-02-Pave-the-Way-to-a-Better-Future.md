@@ -9,6 +9,12 @@ header:
 tags:
   - micronews
   - wat bo
+excerpt: |
+  Wat Bo, on the east side of the Siem Reap River, where our property is
+  located, is a quiet, cosy area in Siem Reap.  Close enough to the Pub Street,
+  far from the noise of night parties. It has been known as a residential area,
+  where ex-pats often choose as their place to live. Quiet, green, and less
+  traffic.
 ---
 
 ## Wat Bo
