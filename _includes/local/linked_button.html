@@ -1,0 +1,8 @@
+{% comment  %}
+A bootstrap button with link
+{% endcomment %}
+
+{% assign class = include.class | default: "" %}
+<div class="text-right" >
+<a href="{{ include.url }}" class="btn btn-primary active" role="button" aria-pressed="true">{{ include.text }}</a>
+</div>
