@@ -245,6 +245,16 @@ defaults:
       sidebar:
         nav: makerspace
   - scope:
+      path: makerspace/courses
+      type: pages
+    values:
+      toc: true
+      toc_sticky: true
+      layout: single
+      sidebar:
+        nav: makerspace
+
+  - scope:
       path: hotel
       type: pages
     values:
