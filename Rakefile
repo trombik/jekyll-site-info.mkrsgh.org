@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "open3"
 
 task default: [:rubocop, :markdownlint, :jekyll_build, :htmlproofer]
