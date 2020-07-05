@@ -3,6 +3,8 @@ title: 3D Printing Basic
 header:
   overlay_image: /assets/img/amin-hasani-C_cG9ZV2Zk0-unsplash-800.jpg
   overlay_filter: 0.5
+  image_description: An object is being 3D-printed
+  caption: <span>Photo by <a href="https://unsplash.com/@aminhasani?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Amin Hasani</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 tagline: Basic course for the absolute beginners
 
 ---
