@@ -1,0 +1,26 @@
+<!-- _includes/local/showcases.html -->
+{% assign showcases = page.showcases %}
+
+<section class="showcase">
+    <div class="container-fluid p-0">
+{% for showcase in showcases %}
+{% assign mod = forloop.index | modulo: 2 %}
+{% if mod == 0 %}
+{% assign order_for_image = "order-lg-2" %}
+{% assign order_for_text = "order-lg-1" %}
+{% else %}
+{% assign order_for_image = "" %}
+{% assign order_for_text = "" %}
+{% endif %}
+      <div class="row no-gutters">
+        <div class="col-lg-6 showcase-img {{ order_for_image }}">
+          <img src="{{ showcase.image_path | relative_url }}" {% if showcase.alt %}alt="{{ showcase.alt }}"{% endif %}>
+        </div>
+        <div class="col-lg-6 my-auto p-2 {{ order_for_text }}">
+          <p><strong>{{ showcase.title }}</strong></p>
+          <p class="lead ">{{ showcase.text }}</p>
+        </div>
+    </div>
+{% endfor %}
+  </div>
+</section>
