@@ -1,11 +1,11 @@
 ---
 title: BBC micro:bit Basic course
-excerpt: |
-  Designed for kids, BBC micro:bit course is a series of 2 modules, 10 lessons
-  in total, one hour per lesson. Our courses are based on [lessons published on
-  microbit.org](https://microbit.org/lessons/). Although not required, parents
-  and guardians are encuoraged to attend the class with kids to understand the
-  STEM education.
+header:
+  overlay_image: /assets/img/kids-proudly-showing-microbit.png
+  overlay_filter: 0.5
+  image_description: Kids proudly showing micro:bit
+  caption: Image from [microbit.org](https://microbit.org/)
+tagline: STEM education program for kids
 
 ---
 
@@ -15,15 +15,13 @@ excerpt: |
     caption="BBC micro:bit"
 %}
 
-## Description
-
 Designed for kids, BBC micro:bit course is a series of 2 modules, 10 lessons
 in total, one hour per lesson. Our courses are based on [lessons published on
 microbit.org](https://microbit.org/lessons/). Although not required, parents
 and guardians are encuoraged to attend the class with kids to understand the
 STEM education.
 
-### How students learn micro:bit
+## How students learn micro:bit
 
 This video explains how students learn with BBC micro:bit.
 
@@ -84,5 +82,5 @@ Includes a micro:bit and a USB cable.
 | Minimum participants | 5 |
 | Maximum participants | 7 |
 
-Participants do not include parents, or guardians.
+The numbers of participants above do not include parents, or guardians.
 {: .notice--info }
