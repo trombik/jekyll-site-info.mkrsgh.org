@@ -238,6 +238,19 @@ defaults:
       layout: "single"
       author_profile: false
   - scope:
+      path: makerspace/*.md
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: makerspace
+      header:
+        overlay_image: /assets/img/benjamin-thomas-qDEvPXs9PwY-unsplash-800.jpg
+        overlay_filter: 0.5
+        image_description: A signage object of a makerspace
+        caption: '<span>Photo by <a href="https://unsplash.com/@ben50t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Benjamin Thomas</a> on <a href="https://unsplash.com/s/photos/makerspace?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
+      tagline: ""
+  - scope:
       path: makerspace
       type: pages
     values:
