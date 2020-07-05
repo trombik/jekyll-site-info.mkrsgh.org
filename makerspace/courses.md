@@ -1,7 +1,5 @@
 ---
 title: Courses
-sidebar:
-  nav: makerspace
 
 ---
 
@@ -12,6 +10,14 @@ accomplishing each course. The language used in courses is strictly English.
 Courses are open to members and non-members. Non-members are welcome to
 participate, but not allowed to use work areas, tools, and machines after the
 course.
+
+Some courses are designed for kids as a STEM education program.
+
+{% include local/linked_quote.html
+    title = "What is STEM Education?"
+    text = "STEM is a curriculum based on the idea of educating students in four specific disciplines — science, technology, engineering and mathematics — in an interdisciplinary and applied approach. Rather than teach the four disciplines as separate and discrete subjects, STEM integrates them into a cohesive learning paradigm based on real-world applications."
+    url = "https://www.livescience.com/43296-what-is-stem-education.html"
+%}
 
 ## Free courses for Cambodian nationals
 
