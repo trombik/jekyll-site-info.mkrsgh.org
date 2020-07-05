@@ -1,5 +1,11 @@
 ---
 title: Soldering course
+header:
+  overlay_image: /assets/img/thisisengineering-raeng-YXdbaTRcQzA-unsplash-800.jpg
+  overlay_filter: 0.5
+  image_description: An engineer is soldering
+  caption: <span>Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/s/photos/soldering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+tagline: Master an art of soldering
 
 ---
 
@@ -28,7 +34,7 @@ Participants must be over 14 years.
 
 Participants under 18 must attend the class with the parent or the guardian.
 
-### Course objectives
+## Course objectives
 
 Upon completion of the course, participants will:
 
@@ -37,7 +43,7 @@ Upon completion of the course, participants will:
 - be able to correctly solder basic components, such as passives, pin headers, and sockets
 - be able to correctly de-solder components
 
-### Course materials
+## Course materials
 
 In the course, the following materials are used.
 
@@ -57,7 +63,7 @@ In the course, the following materials are used.
 
 All materials are provided.
 
-### Topics covered in the course
+## Topics covered in the course
 
 - Solder and soldering theory
 - Different type of solders
@@ -65,16 +71,16 @@ All materials are provided.
 - Soldering
 - De-soldering
 
-### Assignment
+## Assignment
 
 Participants will demonstrate their achievements by creating a working
 circuit.
 
-### Pricing
+## Pricing
 
 20 USD
 
-### Minimum and maximum participants
+## Minimum and maximum participants
 
 |----------------------|---|
 | Minimum participants | 1 |
