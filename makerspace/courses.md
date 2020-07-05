@@ -43,6 +43,10 @@ are happy to help ([how?](../education)).
 
 ### {{ course.title }}
 
+{% if course.tagline %}
+_{{ course.tagline }}_
+{% endif %}
+
 {{ course.excerpt }}
 
 {% include local/linked_button.html
