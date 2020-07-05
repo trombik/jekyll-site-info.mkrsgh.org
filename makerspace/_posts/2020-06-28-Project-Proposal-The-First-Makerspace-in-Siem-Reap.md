@@ -1,5 +1,5 @@
 ---
-title: "Project Proposal: The first makerspace is Siem Reap"
+title: "Project Proposal: The first makerspace in Siem Reap"
 layout: single
 header:
   overlay_image: /assets/img/george-bakos-OvEr7BwXxxg.jpg
