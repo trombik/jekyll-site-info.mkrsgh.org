@@ -3,13 +3,10 @@ title: 3D CAD Basic course
 
 ---
 
-## Description
-
 In the 3D CAD Basic course, we will go thorough a tutorial to create 3D solid
-model using [FreeCAD](https://freecadweb.org/).
-
-You will learn basic navigation in CAD, tools in _Part Design Workbench_, and
-a pattern to create 3D solid models.
+model using [FreeCAD](https://freecadweb.org/). You will learn basic
+navigation in CAD, tools in _Part Design Workbench_, and a pattern to create
+3D solid models.
 
 After successful completion of the course assignment, you will receive
 _3D CAD_ [badge](../../badges/).

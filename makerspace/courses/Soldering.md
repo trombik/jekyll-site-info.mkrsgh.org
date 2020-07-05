@@ -3,15 +3,11 @@ title: Soldering course
 
 ---
 
-## Description
-
 In the Soldering course, we discuss hand soldering, one of the most important
-skill in electronics. It starts with a theory in solder, and soldering.
-
-You will learn soldering passive components, transistors, and pin headers.
-
-During the course, you will solder a circuit, which you can bring back to home
-with you.
+skill in electronics. It starts with a theory in solder, and soldering. You
+will learn soldering passive components, transistors, and pin headers. During
+the course, you will solder a circuit, which you can bring back to home with
+you.
 
 The course does not include programming microcomputer. If you want to learn
 programming with microcomputer, join [Blink course](../Blink/).

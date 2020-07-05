@@ -3,13 +3,10 @@ title: Oscilloscope course
 
 ---
 
-## Description
-
-In the Oscilloscope course, you will learn basics of oscilloscope, why you
-need it, and how to visualize signals in a circuit. The course is designed for
-those who have experiences in building simple circuits.
-
-Oscilloscope is a device that visualize electronic signals.
+Oscilloscope is a device that visualize electronic signals.  In the
+Oscilloscope course, you will learn basics of oscilloscope, why you need it,
+and how to visualize signals in a circuit. The course is designed for those
+who have experiences in building simple circuits.
 
 After successful completion of the course assignment, you will receive
 _Oscillo_ [badge](../../badges/).

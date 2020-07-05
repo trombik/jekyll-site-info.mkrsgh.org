@@ -3,14 +3,10 @@ title: Blink course
 
 ---
 
-## Description
-
 In the Blink course, you will create a _blink_ circuit, controlled by a
 microcomputer. The blink circuit is the first circuit electronics beginners
-creates. The circuit simply _blink_ an LED in the circuit.
-
-You will learn basic programming by `arduino`, a computer language for
-beginners.
+creates. The circuit simply _blink_ an LED in the circuit. You will learn
+basic programming by `arduino`, a computer language for beginners.
 
 After successful completion of the course assignment, you will receive
 _Blink_ [badge](../../badges/).
