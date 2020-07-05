@@ -3,8 +3,6 @@ title: Ethernet wiring course
 
 ---
 
-## Description
-
 In the Ethernet wiring course, you will learn different types of Ethernet
 cables and RJ45 connectors, physical characteristics, and how to wire Ethernet
 cables.

@@ -3,11 +3,8 @@ title: 3D Printing Basic
 
 ---
 
-## Description
-
-In the 3D Printing Basic course, you will print a 3D solid model.
-
-You will learn what you need when you print a 3D solid model.
+In the 3D Printing Basic course, you will print a 3D solid model. You will
+learn what you need when you print a 3D solid model.
 
 After successful completion of the course assignment, you will receive
 _3D_ [badge](../../badges/).
