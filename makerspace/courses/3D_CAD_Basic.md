@@ -1,5 +1,10 @@
 ---
-title: 3D CAD Basic course
+title: 3D CAD Basic
+header:
+  overlay_image: /assets/img/TBHS-model.png
+  overlay_filter: 0.5
+  image_description: An example 3D model object
+tagline: Create 3D objects, and solve your daily-life problems
 
 ---
 
@@ -22,7 +27,7 @@ experience in the past.
 
 Participants must be over 14 years.
 
-### Course objectives
+## Course objectives
 
 Upon completion of the course, participants will:
 
@@ -30,7 +35,7 @@ Upon completion of the course, participants will:
 - be able to create a simple 3D object
 - be able to export the 3D object to a file in STL format for 3D printing
 
-### Course materials
+## Course materials
 
 In the course, the following materials are used.
 
@@ -38,23 +43,23 @@ In the course, the following materials are used.
 
 All materials are provided.
 
-### Topics covered in the course
+## Topics covered in the course
 
 - Understanding common ideas in 3D CAD
 - Navigating
 - Drawing a 2D object, a sketch
 - Converting the sketch to 3D object
 
-### Assignment
+## Assignment
 
 Participants will demonstrate their achievements by creating a working
 circuit.
 
-### Pricing
+## Pricing
 
 5 USD
 
-### Minimum and maximum participants
+## Minimum and maximum participants
 
 |----------------------|---|
 | Minimum participants | 1 |
