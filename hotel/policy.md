@@ -93,7 +93,7 @@ policies at the makerspace](../../makerspace/policy).
 We keep found items for one week. If we know your contact, we try our best to
 contact you.
 
-### No discriminations
+### No Discrimination
 
 We do not discriminate anyone on the grounds of:
 
@@ -107,4 +107,4 @@ We do not discriminate anyone on the grounds of:
 1. Religion
 1. Political belief or activity.
 
-We do not tolerate the discriminations by anyone at the property.
+We do not tolerate the discrimination by anyone at the property.

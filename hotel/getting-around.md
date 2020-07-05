@@ -1,7 +1,7 @@
 ---
 title: Getting around
 summary: |
-  Various ways to explore Siem Riap.
+  Various ways to explore Siem Reap.
 
 ---
 

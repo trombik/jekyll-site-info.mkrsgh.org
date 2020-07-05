@@ -18,7 +18,7 @@ tagline: STEM education program for kids
 Designed for kids, BBC micro:bit course is a series of 2 modules, 10 lessons
 in total, one hour per lesson. Our courses are based on [lessons published on
 microbit.org](https://microbit.org/lessons/). Although not required, parents
-and guardians are encuoraged to attend the class with kids to understand the
+and guardians are encouraged to attend the class with kids to understand the
 STEM education.
 
 ## How students learn micro:bit
