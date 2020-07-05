@@ -2,7 +2,10 @@
 
 require "open3"
 
-task default: [:rubocop, :markdownlint, :jekyll_build, :htmlproofer]
+task default: :test
+
+task test: [:rubocop, :markdownlint, :aspell, :jekyll_build, :htmlproofer]
+desc "Perform all tests"
 
 task :rubocop do
   sh "rubocop"
