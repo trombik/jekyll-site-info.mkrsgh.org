@@ -1,5 +1,11 @@
 ---
-title: Oscilloscope course
+title: Oscilloscope
+header:
+  overlay_image: /assets/img/Rigol_1000Z_SiteSeller.jpg
+  overlay_filter: 0.5
+  image_description: Rigol 1000Z series, mixed signal oscilloscope
+  caption: Image from <a href="https://www.rigolna.com/products/digital-oscilloscopes/1000z/" target="blank">Rigol official product page</a>
+tagline: Learn the 101 of Oscilloscopes
 
 ---
 
@@ -33,14 +39,14 @@ Participants must have created a circuit with microcomputer that blinks an
 LED. For blink circuit, we have [Blink course](../Blink/). You are encouraged
 to take Blink course before this course.
 
-### Course objectives
+## Course objectives
 
 Upon completion of the course, participants will:
 
 - be able to visualize signals
 - be able to trigger by rising and falling signals
 
-### Course materials
+## Course materials
 
 In the course, the following materials are used.
 
@@ -49,7 +55,7 @@ In the course, the following materials are used.
 
 All materials are provided.
 
-### Topics covered in the course
+## Topics covered in the course
 
 - Understanding signals
 - Hazards and risks
@@ -58,16 +64,16 @@ All materials are provided.
 - Triggers
 - Visualizing the Blink
 
-### Assignment
+## Assignment
 
 Participants will demonstrate their achievements by configuring the
 oscilloscope with different triggers.
 
-### Pricing
+## Pricing
 
 20 USD
 
-### Minimum and maximum participants
+## Minimum and maximum participants
 
 |----------------------|---|
 | Minimum participants | 1 |
