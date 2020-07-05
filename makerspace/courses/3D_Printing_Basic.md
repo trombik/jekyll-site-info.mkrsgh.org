@@ -1,10 +1,15 @@
 ---
 title: 3D Printing Basic
+header:
+  overlay_image: /assets/img/amin-hasani-C_cG9ZV2Zk0-unsplash-800.jpg
+  overlay_filter: 0.5
+tagline: Basic course for the absolute beginners
 
 ---
 
-In the 3D Printing Basic course, you will print a 3D solid model. You will
-learn what you need when you print a 3D solid model.
+In the 3D Printing Basic course, you will print a 3D solid model from publicly
+available STL files. You will learn how 3D printer works, materials and
+filaments, calibration techniques, and fine-tuning printer settings.
 
 After successful completion of the course assignment, you will receive
 _3D_ [badge](../../badges/).
