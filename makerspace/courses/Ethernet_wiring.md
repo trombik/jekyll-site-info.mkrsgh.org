@@ -1,5 +1,11 @@
 ---
-title: Ethernet wiring course
+title: Ethernet wiring
+header:
+  overlay_image: /assets/img/thomas-jensen-ISG-rUel0Uw-unsplash-800.jpg
+  overlay_filter: 0.5
+  image_description: Black network switch with cables
+  caption: <span>Photo by <a href="https://unsplash.com/@thomasjsn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thomas Jensen</a> on <a href="https://unsplash.com/s/photos/ethernet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+tagline: Create a network cable at any length
 
 ---
 
@@ -33,7 +39,7 @@ Targeted participants include those who want to:
 
 Participants must be over 14 years.
 
-### Course objectives
+## Course objectives
 
 Upon completion of the course, participants will:
 
@@ -41,7 +47,7 @@ Upon completion of the course, participants will:
 - understand network topologies
 - be able to create Ethernet cables
 
-### Course materials
+## Course materials
 
 In the course, the following materials are used.
 
@@ -52,7 +58,7 @@ In the course, the following materials are used.
 
 All materials are provided.
 
-### Topics covered in the course
+## Topics covered in the course
 
 - How Ethernet works, the basics
 - Layers and topologies
@@ -62,16 +68,16 @@ All materials are provided.
 - Cables
 - RJ45
 
-### Assignment
+## Assignment
 
 Participants will demonstrate their achievements by creating an Ethernet
 cable.
 
-### Pricing
+## Pricing
 
 5 USD
 
-### Minimum and maximum participants
+## Minimum and maximum participants
 
 |----------------------|---|
 | Minimum participants | 1 |
