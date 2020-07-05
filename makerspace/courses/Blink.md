@@ -1,5 +1,11 @@
 ---
-title: Blink course
+title: Blink
+header:
+  overlay_image: /assets/img/clint-patterson-lPcXuJyoIjU-unsplash-800.jpg
+  overlay_filter: 0.5
+  image_description: A blink circuit on a workbench table
+  caption: <span>Photo by <a href="https://unsplash.com/@cbpsc1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clint Patterson</a> on <a href="https://unsplash.com/s/photos/iot?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+tagline: Your first IoT project that blinks an LED
 
 ---
 
@@ -22,7 +28,7 @@ and programming with no experience in the past.
 
 Participants must be over 14 years.
 
-### Course objectives
+## Course objectives
 
 Upon completion of the course, participants will:
 
@@ -30,7 +36,7 @@ Upon completion of the course, participants will:
 - be able to compile code
 - be able to upload code to a microcomputer
 
-### Course materials
+## Course materials
 
 In the course, the following materials are used.
 
@@ -45,7 +51,7 @@ In the course, the following materials are used.
 
 All materials are provided.
 
-### Topics covered in the course
+## Topics covered in the course
 
 - Programming 101
 - Hazards and risks
@@ -55,16 +61,16 @@ All materials are provided.
 - Using breadboard
 - The blink
 
-### Assignment
+## Assignment
 
 Participants will demonstrate their achievements by creating a working
 blink circuit.
 
-### Pricing
+## Pricing
 
 10 USD
 
-### Minimum and maximum participants
+## Minimum and maximum participants
 
 |----------------------|---|
 | Minimum participants | 1 |
