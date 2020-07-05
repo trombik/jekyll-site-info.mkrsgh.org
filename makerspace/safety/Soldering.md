@@ -10,7 +10,7 @@ To solder, you need _Solder_ [badge](../../badges/).
 
 ### Fumes cause damages to your health
 
-Non-lead-free solder nad flux contain toxic materials, and the fume from
+Non-lead-free solder and flux contain toxic materials, and the fume from
 soldering causes damages and illness.
 
 ### Soldering iron cause fire

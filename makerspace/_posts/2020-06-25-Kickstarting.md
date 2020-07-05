@@ -152,9 +152,9 @@ in foreseeable future.
 
 <figure>
     <img src="/assets/img/Business-for-Sale-at-Pub-Street.jpg" alt="Business
-    for sale, a familiar sign in the town. Many businessess are closed
+    for sale, a familiar sign in the town. Many businesses are closed
     indefinitely, or on sale. Pub Street, Siem Reap">
-    <figcaption>"Business for sale", a familiar sign in the town. Many businessess are closed indefinitely, or on sale. Pub Street, Siem Reap</figcaption>
+    <figcaption>"Business for sale", a familiar sign in the town. Many businesses are closed indefinitely, or on sale. Pub Street, Siem Reap</figcaption>
 </figure>
 
 After the pandemic hit the rest of world, what happened in Siem Reap? Cambodia

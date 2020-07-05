@@ -200,7 +200,7 @@ KPIs, or Key Performance Indicator
 Demonstrate what direct and indirect beneficiaries can benefit from the
 makerspace by producing wood handcraft products for one of project members,
 increase the understanding of Makerspace and Maker movement,  so that the
-project gets more tractions, and create Maker community in Siem Reap.
+project gets more traction, and create Maker community in Siem Reap.
 
 #### Activities
 
@@ -270,7 +270,7 @@ educational programs.
 
 #### Outcomes
 
-Kids can develop their creativities with modern technologies.
+Kids can develop their creativity with modern technologies.
 
 Teachers can acquire another tool that can be used in very innovative ways
 to inspire and educate children.

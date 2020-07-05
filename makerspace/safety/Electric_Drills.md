@@ -14,7 +14,7 @@ The damage could be permanent damage to your body, or death.
 
 ### High voltage kills you
 
-Defects in the power surpply unit or the power cable cause electrical shocks,
+Defects in the power supply unit or the power cable cause electrical shocks,
 which is lethal.
 
 ## Safety practices
@@ -52,4 +52,4 @@ Do not use the drill in wet locations.
 Keep the drill and the power cable away from heat, water, oil, sharp edges and
 moving parts.
 
-Do NOT operate the drill at the higher hight of your chest.
+Do NOT operate the drill at the higher height of your chest.
