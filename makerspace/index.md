@@ -9,7 +9,7 @@ header:
 tagline: |
   The first makerspace in Siem Reap, Cambodia.<br />
   <small>Are you a maker? Do you want better educational programs for kids in
-  Sirem Reap? Become a kickstart backer of the project!</small>
+  Siem Reap? Become a kickstart backer of the project!</small>
 
 showcases:
   - image_path: /assets/img/zan-wGqz5YSqsfk-unsplash-1500.jpg
@@ -80,11 +80,12 @@ feature_row_menu:
     alt: "Coming soon"
     title: "Coming soon"
     excerpt: |
-      We provide workspaces.
+      We provide work-spaces.
   - image_path: /assets/img/Rigol_1000Z_SiteSeller.jpg
+    alt: Rigol 1000Z
     title: Tools and equipment
     excerpt: |
-      We provide tools and equipments at Makers, including soldering tools, 3D
+      We provide tools and equipment at Makers, including soldering tools, 3D
       printers, laser cutting machine.
     url: "/makerspace/tools/"
     btn_class: "btn--primary"
