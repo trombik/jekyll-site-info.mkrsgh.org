@@ -7,10 +7,6 @@ on:
 jobs:
   aspell:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby:
-          - 2.6
     name: Check spellings in markdown files
     steps:
       - name: Checkout the repository
@@ -24,7 +20,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Install ruby version ${{ matrix.ruby }}
+      - name: Install ruby
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6
@@ -37,7 +33,6 @@ jobs:
       - name: Install aspell
         run: |
           sudo apt-get install aspell aspell-en
-          aspell --version
 
       - name: Show aspel version
         run: |
