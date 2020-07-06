@@ -79,8 +79,7 @@ feature_row_menu:
   - image_path: /assets/img/microbit.svg
     alt: "Coming soon"
     title: "Coming soon"
-    excerpt: |
-      We provide work-spaces.
+    excerpt: ""
   - image_path: /assets/img/Rigol_1000Z_SiteSeller.jpg
     alt: Rigol 1000Z
     title: Tools and equipment
