@@ -242,12 +242,18 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: false
       share: true
       related: true
       permalink: /blog/:slugified_categories/:year/:month/:day/:title/
+      header:
+        overlay_image: /assets/img/george-bakos-OvEr7BwXxxg.jpg
+        overlay_filter: 0.5
+        show_overlay_excerpt: false
+        caption: Photo by <a href="https://unsplash.com/@georgebakos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">George Bakos on Unsplash</a>
       sidebar:
         nav: blog
   - scope:
