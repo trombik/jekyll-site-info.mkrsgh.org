@@ -14,3 +14,4 @@ ignore: |
   _site
   .gitlab-ci.yml
   docker-compose.yml
+  _data/ui-text.yml
