@@ -4,7 +4,7 @@ require "open3"
 
 task default: :test
 
-task test: [:rubocop, :markdownlint, :aspell, :jekyll_build, :htmlproofer]
+task test: [:rubocop, :markdownlint, :yamllint, :aspell, :jekyll_build, :htmlproofer]
 desc "Perform all tests"
 
 task :rubocop do
@@ -54,4 +54,8 @@ task :aspell do
     end
     raise "aspell failed"
   end
+end
+
+task :yamllint do
+  sh "yamllint -c .yamllint.yml ."
 end
