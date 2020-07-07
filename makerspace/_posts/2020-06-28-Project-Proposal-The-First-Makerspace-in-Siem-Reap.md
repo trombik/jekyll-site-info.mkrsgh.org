@@ -12,8 +12,6 @@ tags:
 
 ---
 
-## Summary
-
 We are proposing a project that builds a "makerspace" in Siem Reap, where
 creators and innovators of all ages and skill levels can create their
 products, and a community around it. The project is a Kickstart project,
