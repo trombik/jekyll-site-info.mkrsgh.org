@@ -246,7 +246,7 @@ defaults:
       sidebar:
         nav: blog
   - scope:
-      path: blog/index.html
+      path: blog/*.html
       type: pages
     values:
       layout: single
