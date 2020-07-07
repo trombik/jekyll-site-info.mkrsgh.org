@@ -49,3 +49,16 @@ hotel:
         url: /hotel/tours/
       - title: Understanding
         url: /hotel/understanding/
+blog:
+  - title: Makers blog
+    children:
+      - title: Blog Home
+        url: /blog/
+  - title: Blog Archives by
+    children:
+      - title: Year
+        url: /blog/archives/year/
+      - title: Tag
+        url: /blog/archives/tag/
+      - title: Category
+        url: /blog/archives/category/

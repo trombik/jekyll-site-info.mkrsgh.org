@@ -169,7 +169,7 @@ sass:
 # Outputting
 permalink: pretty
 paginate: 5  # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page/:num/
 timezone:  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -195,20 +195,26 @@ whitelist:
 
 category_archive:
   type: jekyll-archives
-  path: /blog/categories/
+  path: /blog/archives/category/
 tag_archive:
   type: jekyll-archives
-  path: /blog/tags/
+  path: /blog/archives/tag/
+year_archive:
+  type: jekyll-archives
+  path: /blog/archives/year/
 jekyll-archives:
   enabled:
     - categories
     - tags
+    - year
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
+    year: archive-taxonomy
   permalinks:
-    category: /blog/categories/:name/
-    tag: /blog/tags/:name/
+    category: /blog/archives/category/:name/
+    tag: /blog/archives/tag/:name/
+    year: /blog/archives/year/:year/
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -217,8 +223,6 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
 defaults:
   - scope:
       path: ""
@@ -227,10 +231,28 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments:  # true
+      comments: false
       share: true
       related: true
       permalink: /blog/:slugified_categories/:year/:month/:day/:title/
+      sidebar:
+        nav: blog
+  - scope:
+      path: _pages/archives/*.md
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: blog
+  - scope:
+      path: blog/index.html
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: blog
   - scope:
       path: ""
       type: "pages"
