@@ -32,12 +32,12 @@ feature_row_active_learning:
 Kids inherit wealth or poverty from parents. How about creativities?
 Biologically, maybe at some level. Probably, negligible. Recent researches
 revealed that people inherit _creative potential_, but that does not guarantee
-actual performance, or results. Environmental factors must be playing the major
-role. Mozart became the greatest composer in history not because his father is
-a violinist, but because the father gave him the best possible education in
-music at the time. Not all parents are fortunate in having such options to
-kids. But you are not raising another Mozart, are you? There are always
-things parents can do for kids.
+actual performance, or results. Environmental factors must be playing the
+major role. Mozart became the greatest composer in history not because his
+father was a violinist, but because the father gave him the best possible
+education in music at the time. Not all parents are fortunate in having such
+options to kids. But you are not raising another Mozart, are you? There are
+always things parents can do for kids.
 
 My neighbour, Simon and Katrine, the owners of [Babel
 Guesthouse](https://www.babelsiemreap.com/), have daughters. A few days ago,
