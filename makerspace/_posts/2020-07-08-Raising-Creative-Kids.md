@@ -119,7 +119,7 @@ solution-focused thinking. Simply put, it is a process for innovation.
 > etc.) are developed.
 
 They empathized user's need (the daughter, in this case). What does her
-daughter loves? Asking users what they want is often a bad idea in product
+daughter love? Asking users what they want is often a bad idea in product
 development. Most of people often request what, _they think_, they need, which
 is not necessarily the solution to the problem. If you asked someone in the
 18th century what they need, they would have said they need a faster horse,
