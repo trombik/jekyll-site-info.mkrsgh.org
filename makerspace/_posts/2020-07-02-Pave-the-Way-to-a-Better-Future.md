@@ -25,10 +25,10 @@ far from the noise of night parties. It has been known as a residential area,
 where ex-pats often choose as their place to live. Quiet, green, and less
 traffic.
 
-{% include figure
-    image_path = "/assets/img/Quiet-Alley.jpg"
-    alt = "The alley in front of our property is quiet."
-    caption = "The alley is quiet, especially after the pandemic. Wat Bo, Siem Reap &copy; Tomoyuki Sakurai"
+{% responsive_image
+    path: "assets/img/Quiet-Alley.jpg"
+    alt: "The alley in front of our property is quiet."
+    caption: "The alley is quiet, especially after the pandemic. Wat Bo, Siem Reap &copy; Tomoyuki Sakurai"
 %}
 
 Siem Reap, as well as the country, has been changing. Many infrastructure
@@ -43,10 +43,10 @@ might miss the alley.  When it is raining, the alley is flooded, and becomes
 very muddy.  Traffic was little or nothing. Neighbours let their kids playing
 on the alley without fear of a traffic accident. Probably not in the future.
 
-{% include figure
-    image_path = "/assets/img/Busy-Alley.jpg"
-    alt = "Many people observing the survey in front of our property"
-    caption = "Neighbours observing the survey. Wat Bo, Siem Reap. &copy; Tomoyuki Sakurai"
+{% responsive_image
+    path: "assets/img/Busy-Alley.jpg"
+    alt: "Many people observing the survey in front of our property"
+    caption: "Neighbours observing the survey. Wat Bo, Siem Reap. &copy; Tomoyuki Sakurai"
 %}
 
 ## A development begins
@@ -76,10 +76,10 @@ reservoirs on the top floor because the pressure is not strong enough to pump
 the water to the top. With newer water pipes, the pressure can be increased.
 A great improvement for locals.
 
-{% include figure
-    image_path="/assets/img/Government-Officials-Making-Survey-of-the-Alley.jpg"
-    alt="Government officials making survey of an alley in Wat Bo, Siem Reap"
-    caption="\"I've never seen the alley is so crowded\", said one of my neighbours. Wat Bo, Siem Reap. &copy; Tomoyuki Sakurai"
+{% responsive_image
+    path: "assets/img/Government-Officials-Making-Survey-of-the-Alley.jpg"
+    alt: "Government officials making survey of an alley in Wat Bo, Siem Reap"
+    caption: "&quot;I've never seen the alley is so crowded&quot;, said one of my neighbours. Wat Bo, Siem Reap. &copy; Tomoyuki Sakurai"
 %}
 
 People fear changes a bit, but generally, they are very hopeful. The country
