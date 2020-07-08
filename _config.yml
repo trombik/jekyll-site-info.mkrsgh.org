@@ -184,6 +184,19 @@ plugins:
   - jekyll-polyglot
   - jekyll-archives
   - jekyll-minifier
+  - jekyll-responsive-image
+
+responsive_image:
+  template: _includes/local/srcset-resized-fallback.html
+  default_quality: 80
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1500
+  output_path_format: assets/%{dirname}/resized/%{filename}-%{width}x%{height}.%{extension}
+  # `save_to_source: false` does not work. see
+  # https://github.com/wildlyinaccurate/jekyll-responsive-image/issues/94
+  save_to_source: true
 
 # mimic GitHub Pages with --safe
 whitelist:

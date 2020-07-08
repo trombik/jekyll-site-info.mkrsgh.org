@@ -1,0 +1,17 @@
+{% assign largest = resized | sort: 'width' | last %}
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+<figure class="{{ class }}">
+  <img src="/{{ largest.path }}"
+       alt="{{ alt }}"
+       srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+       >
+  {% if caption %}
+    <figcaption>
+      {{ caption }}
+    </figcaption>
+  {% endif %}
+</figure>

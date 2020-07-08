@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-browsersync"
   gem "jekyll-minifier"
   gem "jekyll-polyglot"
+  gem "jekyll-responsive-image"
   gem "jekyll-youtube"
 end
 gem "minimal-mistakes-jekyll"
