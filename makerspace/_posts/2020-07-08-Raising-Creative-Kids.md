@@ -205,6 +205,11 @@ project](https://www.kickstarter.com/projects/trombik/1274353640?ref=4wrsfe&toke
 The kickstarter project is currently under review. We will publish the updates
 about the project in the blog soon.
 
+We have published [a post about our plan of BBC micro:bit courses]({{
+"/blog/makerspace/2020/06/30/Microbit-Courses/" | relative_url }}) before.
+Hopefully, I will be able to introduce micro:bit to curious readers. DHL send
+me an SMS message today, saying my order is on its way.
+
 ## Final words
 
 Be creative to raise creative kids. You do not have to be rich for that. Money
