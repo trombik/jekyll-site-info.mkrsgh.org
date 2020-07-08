@@ -11,3 +11,4 @@ node_modules/
 *.tfstate
 *.tfstate.backup
 _terraform/.terraform
+assets/img/resized/

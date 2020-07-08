@@ -36,5 +36,10 @@ jobs:
           bundle install --jobs 4 --retry 3
       - name: Build static site
         run: env JEKYLL_ENV=production bundle exec jekyll build --config _config.yml
+
+      - name: Build the site again to generate resized images
+        # see https://github.com/wildlyinaccurate/jekyll-responsive-image/issues/94
+        run: env JEKYLL_ENV=production bundle exec jekyll build --config _config.yml
+
       - name: Deploy static site to S3 bucket
         run: aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete

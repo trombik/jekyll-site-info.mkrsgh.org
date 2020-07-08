@@ -66,6 +66,9 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-polyglot (1.3.2)
       jekyll (>= 3.0)
+    jekyll-responsive-image (1.5.5)
+      jekyll (>= 2.0, < 5.0)
+      rmagick (>= 2.0, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.4.0)
@@ -114,6 +117,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
+    rmagick (4.1.2)
     rouge (3.19.0)
     rqrcode (1.1.2)
       chunky_png (~> 1.0)
@@ -156,6 +160,7 @@ DEPENDENCIES
   jekyll-browsersync
   jekyll-minifier
   jekyll-polyglot
+  jekyll-responsive-image
   jekyll-youtube
   minimal-mistakes-jekyll
   rake

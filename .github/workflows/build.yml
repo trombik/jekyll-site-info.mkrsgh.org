@@ -27,5 +27,9 @@ jobs:
       - name: install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
 
+      - name: Build the site again to generate resized images
+        # see https://github.com/wildlyinaccurate/jekyll-responsive-image/issues/94
+        run: bundle exec jekyll build
+
       - name: Run htmlproofer
         run: bundle exec htmlproofer --url-ignore "/^#$/" --disable-external _site/
