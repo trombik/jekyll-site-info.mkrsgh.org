@@ -4,9 +4,9 @@ trombik:
   bio: Sysadmin, mileage runner, ขี้เมา, นักขอโทษ
   avatar: assets/img/logo_retangle_400x400.png
   links:
-    - label: y@trombik.org
-      icon: fas fa-fw fa-envelope-square
-      url: "mailto:y@trombik.org"
+    - label: PGP key
+      icon: fas fa-fw fa-key
+      url: https://github.com/trombik.gpg
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
       url: https://twitter.com/makers_gh
