@@ -1,59 +1,33 @@
 ---
 title: Makers Guesthouse Customer Portal
 permalink: /
-
-hotel_menu:
-  - icon: fa-camera-retro
-    title: Hotel policy
-    summary: <p>Please have a look at our hotel policy, including checkout time, opening hours, etc</p>
-    href: hotel/policy/
-  - title: Services
-    icon: fa-cutlery
-    summary: <p>Available our services during your stay, food, drinks, common spaces, utilities.</p>
-    href: hotel/services/
-  - icon: fa-car
-    title: Getting around
-    summary: <p>Access to Angkor Wat, temples, night spots, restaurants, markets, and more!</p>
-    href: hotel/getting-around/
-  - title: Tours
-    icon: fa-camera-retro
-    summary: <p>Our local tuk-tuk tours! Not only Angkor Wat, but water reservoirs, local markets.</p>
-    href: hotel/tours/
-  - title: Understanding
-    icon: fa-database
-    summary: <p>The history, facts, and culture of Cambodia</p>
-    href: hotel/understanding/
-
-makers_menu:
-  - title: Policy
-    icon: fa-file-text-o
-    summary: <p>Please have a look at our policy at makerspace, including opening hours, dos and donts, and qualifications</p>
-    href: makerspace/policy/
-  - title: Safety
-    icon: fa-warning
-    summary: <p>Safety is a critical part of <em>building</em> things. Some tools are dangerous, and others are lethal.</p>
-    href: makerspace/safety/
-  - title: Tools and Equipment
-    icon: fa-microchip
-    summary: <p>List of available tools and equipment at Makers.</p> <p></p> <p></p> <p></p>
-    href: makerspace/tools/
-  - title: Courses
-    icon: fa-book
-    summary: <p>You can learn something new everyday!</p>
-    href: makerspace/courses/
-  - title: Supplies and Parts
-    icon: fa-shopping-cart
-    summary: <p>We sell parts and supplies. Here is stocked parts and supplies.</p>
-    href: makerspace/supplies/
-
+layout: splash
+tagline: |
+  Makers Guesthouse Customer Portal<br />
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/img/benjamin-thomas-qDEvPXs9PwY-unsplash-800.jpg
+  overlay_filter: 0.5
+  image_description: A signage object of a makerspace
+  caption: '<span>Photo by <a href="https://unsplash.com/@ben50t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Benjamin Thomas</a> on <a href="https://unsplash.com/s/photos/makerspace?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>'
 ---
 
-{% include local/kb_menu.html
-    title = '<i class="fa fa-hotel"></i> For hotel guests'
-    items = page.hotel_menu
-%}
-
-{% include local/kb_menu.html
-    title = '<i class="fa fa-hotel"></i> For makerspace guests'
-    items = page.makers_menu
-%}
+<div class="container-fluid container-fluid-max">
+    <div class="row text-center py-5">
+      <div class="col-12 col-sm-6 col-lg-4">
+          <h3>Makerspace Customer Portal</h3>
+          <a href="{{ '/makerspace/' | relative_url }}">
+            <button type="button" class="btn btn-secondary">Go to Makerspace Portal</button>
+          </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+          <h3>Coming Soon</h3>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+          <h3>Our Blog</h3>
+          <a href="{{ '/blog/' | relative_url }}">
+            <button type="button" class="btn btn-secondary">Go to Our Blog</button>
+          </a>
+      </div>
+    </div>
+</div>
