@@ -25,8 +25,8 @@ reCaptcha:
   secret:
 atom_feed:
   path:  # blank (default) uses feed.xml
-search:  # true, false (default)
-search_full_content:  # true, false (default)
+search: true
+search_full_content: false
 search_provider:  # lunr (default), algolia, google
 algolia:
   application_id:  # YOUR_APPLICATION_ID
@@ -238,7 +238,7 @@ compress_html:
 
 defaults:
   - scope:
-      path: ""
+      path: makerspace/
       type: posts
     values:
       layout: single
@@ -274,7 +274,7 @@ defaults:
       sidebar:
         nav: blog
   - scope:
-      path: ""
+      path: makerspace/
       type: "pages"
     values:
       layout: "single"
@@ -333,7 +333,6 @@ defaults:
         nav: hotel
 
 after_footer_scripts:
-  - https://code.jquery.com/jquery-3.5.1.slim.min.js
   - https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js
   - https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
 analytics:
