@@ -1,0 +1,18 @@
+---
+trombik:
+  name: Tomoyuki Sakurai
+  bio: Sysadmin, mileage runner, ขี้เมา, นักขอโทษ
+  avatar: assets/img/logo_retangle_400x400.png
+  links:
+    - label: y@trombik.org
+      icon: fas fa-fw fa-envelope-square
+      url: "mailto:y@trombik.org"
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/makers_gh
+    - label: Github
+      icon: fab fa-fw fa-github
+      url: https://github.com/trombik
+    - label: Facebook
+      icon: fab fa-fw fa-facebook
+      url: https://www.theonion.com/daddy-i-don-t-want-to-live-in-the-world-your-website-h-1826861817
