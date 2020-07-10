@@ -52,9 +52,9 @@ jobs:
         run: |
           aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*.html" --exclude "*.js" --exclude "*.css" --exclude "*.svg" --exclude "assets/img/*"
 
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.html" --exclude "*" --content-encoding "gzip" --cache-control "public"
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.js"   --exclude "*" --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.css"  --exclude "*" --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.svg"  --exclude "*" --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*" --include "*.html" --content-encoding "gzip" --cache-control "public"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*" --include "*.js"   --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*" --include "*.css"  --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*" --include "*.svg"  --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
 
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "assets/img/*" --exclude "*" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*" --include "assets/img/*" --cache-control "public, max-age=864000, s-maxage=864000"
