@@ -21,6 +21,7 @@ gem "rubocop"
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-browsersync"
+  gem "jekyll-gzip"
   gem "jekyll-minifier"
   gem "jekyll-paginate-v2"
   gem "jekyll-polyglot"

@@ -55,6 +55,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
+    jekyll-gzip (2.4.2)
+      jekyll (>= 3.0, < 5.0)
     jekyll-include-cache (0.2.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-minifier (0.1.10)
@@ -160,6 +162,7 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-browsersync
+  jekyll-gzip
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-polyglot
