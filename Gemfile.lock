@@ -64,6 +64,8 @@ GEM
       json-minify (~> 0.0.3)
       uglifier (~> 4.1)
     jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-polyglot (1.3.2)
       jekyll (>= 3.0)
     jekyll-responsive-image (1.5.5)
@@ -159,6 +161,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-browsersync
   jekyll-minifier
+  jekyll-paginate-v2
   jekyll-polyglot
   jekyll-responsive-image
   jekyll-youtube
