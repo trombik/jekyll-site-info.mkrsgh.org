@@ -191,6 +191,7 @@ plugins:
   - jekyll-archives
   - jekyll-minifier
   - jekyll-responsive-image
+  - jekyll-gzip
 
 responsive_image:
   template: _includes/local/srcset-resized-fallback.html
