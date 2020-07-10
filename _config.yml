@@ -76,17 +76,17 @@ author:
       url: "https://github.com/trombik"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: https://www.instagram.com/mkrsgh
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/makers_gh
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: https://www.theonion.com/daddy-i-don-t-want-to-live-in-the-world-your-website-h-1826861817
     - label: "GitHub repository"
       icon: "fab fa-fw fa-github"
       url: https://github.com/trombik/jekyll-site-info.mkrsgh.org/
@@ -98,7 +98,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://www.instagram.com/mkrsgh
 
 
 # Reading Files
