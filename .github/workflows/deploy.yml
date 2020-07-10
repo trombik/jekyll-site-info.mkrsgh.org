@@ -44,8 +44,17 @@ jobs:
       - name: Gzip files
         run: |
           find _site/ -iname "*.html" -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+          find _site/ -iname "*.js"   -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+          find _site/ -iname "*.css"  -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+          find _site/ -iname "*.svg"  -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 
       - name: Deploy static site to S3 bucket
         run: |
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*.html"
-          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.html" --content-encoding "gzip"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude "*.html" --exclude "*.js" --exclude "*.css" --exclude "*.svg" --exclude "assets/img/*"
+
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.html" --content-encoding "gzip" --cache-control "public"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.js"   --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.css"  --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "*.svg"  --content-encoding "gzip" --cache-control "public, max-age=864000, s-maxage=864000"
+
+          aws s3 sync ./_site/ s3://${{ secrets.S3_BUCKET_NAME }} --delete --include "assets/img/*" --cache-control "public, max-age=864000, s-maxage=864000"
