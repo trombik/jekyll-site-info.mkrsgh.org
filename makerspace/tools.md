@@ -2,6 +2,8 @@
 title: Tools and Equipment
 summary: |
   See a list of available tools and equipment at Makers.
+toc: true
+toc_sticky: true
 
 ---
 
