@@ -15,6 +15,7 @@ showcases:
   - image_path: /assets/img/zan-wGqz5YSqsfk-unsplash-1500.jpg
     title: Makerspace is &hellip;
     alt: electric circuits and a keyboard
+    caption: <span>Photo by <a href="https://unsplash.com/@zanilic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Zan</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
     text: |
       A makerspace is a collaborative work space inside a school, library or
       separate public/private facility for making, learning, exploring and
@@ -25,6 +26,7 @@ showcases:
 
   - image_path: /assets/img/teacher-and-kids-in-a-microbit-class.png
     alt: Teacher and kids in a microbit class.
+    caption: Image from <a href="https://microbit.org/impact/case-studies/21st-century-schools/" target="_blank">21st Century Schools</a> on <a href="https://microbit.org/" target="_blank" >microbit.org</a>
     title: |
       STEM skills are extremely important in the Digital Era
     text: |
@@ -38,6 +40,7 @@ showcases:
   - image_path: /assets/img/kids-proudly-showing-microbit.png
     alt: Kids proudly showing BBC micro:bit
     title: Develop Design Thinking
+    caption: Image from <a href="https://microbit.org/" target="_blank" >microbit.org</a>
     text: |
       Also known as engineering, Design Thinking is a method to solve a
       problem. Unlike traditional education where teachers transfer knowledge
