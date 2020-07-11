@@ -15,9 +15,16 @@
       <div class="row no-gutters">
         <div class="col-lg-6 showcase-img {{ order_for_image }}">
           <img src="{{ showcase.image_path | relative_url }}" {% if showcase.alt %}alt="{{ showcase.alt }}"{% endif %}>
+          {% if showcase.caption %}
+          <span class="page__hero-caption">
+            {{ showcase.caption }}
+          </span>
+          {% endif %}
         </div>
         <div class="col-lg-6 my-auto p-2 {{ order_for_text }}">
+          {% if showcase.title %}
           <p><strong>{{ showcase.title }}</strong></p>
+          {% endif %}
           <p class="lead ">{{ showcase.text }}</p>
         </div>
     </div>
