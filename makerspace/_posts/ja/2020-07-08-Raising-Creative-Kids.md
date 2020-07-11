@@ -4,7 +4,9 @@ title: 創造的な子供に育てるのに親御さんができること
 tags:
   - micronews
   - stem
-
+header:
+  overlay_image: /assets/img/posts/Ice_Cream_Shop_at_Babel.jpeg
+  caption: "サイモンとカトリーナは娘の誕生日プレゼントにアイスクリームショップを作った Wat Bo, Siem Reap &copy; Katrine"
 feature_row_Milton_Glaser:
   - image_path: assets/img/posts/Milton_Glaser_We_re_Always_Looking_But_We_Never_Really_See_Adobe_99U.png
     alt: 本文で引用されている記事のスクリーンショット
