@@ -22,3 +22,38 @@
 
 </figure>
 ```
+
+## Showcases
+
+Create showcases with images and descriptions.
+
+`showcases` is a variable to hold a list of `showcase`.
+
+| Key | Description | Mandatory? |
+|-----|-------------|------------|
+| `image_path` | Path to image file | Yes |
+| `alt` | `alt` of the image | No |
+| `caption` | Caption of the image | No |
+| `title` | Title of the text | No |
+| `text` | The text | Yes |
+
+### Usage
+
+Assign `showcases` variable in `frontmatter`.
+
+```yaml
+---
+showcases:
+  - image_path: /assets/img/foo.png
+    alt: ALT text to desceibe the image
+    caption: The caption
+    title: The Title
+    text: |
+      The text
+```
+
+Include the template.
+
+```liquid
+{% include local/showcases.html %}
+```
