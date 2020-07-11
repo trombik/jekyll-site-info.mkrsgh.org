@@ -1,0 +1,10 @@
+<!-- _includes/search/lunr-search-scripts.html {{ site.active_lang }} -->
+{% assign lang = site.active_lang | default: "en" %}
+<script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
+{% if lang != "en" %}
+<script src="{{ lang | append: '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
+<script src="{{ lang | append: '/assets/js/lunr/lunr-lang.js' | relative_url }}"></script>
+{% else %}
+<script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/lunr/lunr-lang.js' | relative_url }}"></script>
+{% endif %}
