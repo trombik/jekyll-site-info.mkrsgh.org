@@ -1,1 +1,7 @@
-<!-- FOOOO -->
+{% comment %}
+    if the page is part of paginated pages, tell robots not to index
+{% endcomment %}
+{% assign array = page.dir | split: '/' %}
+{% if array[-2] == "page" %}
+<meta name="robots" content="noindex, noarchive" />
+{% endif %}
