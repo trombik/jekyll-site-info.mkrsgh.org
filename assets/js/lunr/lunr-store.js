@@ -16,29 +16,25 @@ var store = [
       {%- endif -%}
       {
         "title": {{ doc.title | jsonify }},
+        {%- assign __content = doc.content | newline_to_br |
+              replace:"<br />", " " |
+              replace:"</p>", " " |
+              replace:"</h1>", " " |
+              replace:"</h2>", " " |
+              replace:"</h3>", " " |
+              replace:"</h4>", " " |
+              replace:"</h5>", " " |
+              replace:"</h6>", " "|
+              strip_html | strip_newlines -%}
         "excerpt":
-          {%- if site.search_full_content == true -%}
-            {{ doc.content | newline_to_br |
-              replace:"<br />", " " |
-              replace:"</p>", " " |
-              replace:"</h1>", " " |
-              replace:"</h2>", " " |
-              replace:"</h3>", " " |
-              replace:"</h4>", " " |
-              replace:"</h5>", " " |
-              replace:"</h6>", " "|
-            strip_html | strip_newlines | jsonify }},
+          {%- if site.search_full_content -%}
+            {{ __content | jsonify }},
           {%- else -%}
-            {{ doc.content | newline_to_br |
-              replace:"<br />", " " |
-              replace:"</p>", " " |
-              replace:"</h1>", " " |
-              replace:"</h2>", " " |
-              replace:"</h3>", " " |
-              replace:"</h4>", " " |
-              replace:"</h5>", " " |
-              replace:"</h6>", " "|
-            strip_html | strip_newlines | truncatewords: 50 | jsonify }},
+            {%- if site.active_lang == "ja" -%}
+            {{ __content | truncate: 512 | jsonify }},
+            {%- else -%}
+            {{ __content | truncatewords: 200 | jsonify }},
+            {%- endif -%}
           {%- endif -%}
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},

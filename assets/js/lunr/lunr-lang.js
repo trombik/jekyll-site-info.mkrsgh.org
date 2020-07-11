@@ -2,6 +2,9 @@
 layout: null
 ---
 var idx = lunr(function () {
+{% if site.active_lang != "en" %}
+  this.use(lunr.{{ site.active_lang }});
+{% endif %}
   this.field('title')
   this.field('excerpt')
   this.field('categories')
