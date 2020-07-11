@@ -1,0 +1,65 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif post.header.overlay_image %}
+  {% capture teaser %}{{ post.header.overlay_image }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% capture post_relative_url %}
+{{ post.url | relative_url }}
+{% endcapture %}
+
+{% capture more_label %}
+{{ site.data.ui-text[site.active_lang].more_label }}
+{% endcapture %}
+
+<div class="container-fluid">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="archive__item-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ post_relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+        </h2>
+        <p class="page__meta">
+          <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.active_lang].date_label | default: "Updated:" }} <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          {% if post.read_time %}
+          <br />
+          <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
+          {% endif %}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <a href="{{ post.url | relative_url }}" rel="permalink">
+          <img class="align-left img-fluid" src="{{ teaser | relative_url }}" alt="" style="width:100%; height:200px; object-fit: cover;">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+      {% if post.excerpt %}
+        <p class="pt-4" itemprop="description">
+          {{ post.excerpt | markdownify | strip_html | truncate: 400 }}
+        </p>
+      {% endif %}
+      {% include local/linked_button.html
+           text = more_label
+           url = post_relative_url
+      %}
+      </div>
+    </div>
+  </article>
+</div>
