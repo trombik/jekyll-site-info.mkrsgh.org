@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/img/posts/AliExpress_Tracking.png
   overlay_filter: 0.6
   show_overlay_excerpt: false
-  caption: ""
+  caption: ある商品のトラッキング情報
 tags:
   - micronews
 
