@@ -3,7 +3,9 @@ title: Raising creative kids
 tags:
   - micronews
   - stem
-
+header:
+  overlay_image: /assets/img/posts/Ice_Cream_Shop_at_Babel.jpeg
+  caption: "Simon and Katrine built an ice cream shop for the kids. Wat Bo, Siem Reap &copy; Katrine"
 feature_row_Milton_Glaser:
   - image_path: assets/img/posts/Milton_Glaser_We_re_Always_Looking_But_We_Never_Really_See_Adobe_99U.png
     alt: A screenshot of the quoted web page in the post
