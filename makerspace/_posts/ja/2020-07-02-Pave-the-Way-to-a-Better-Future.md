@@ -4,8 +4,6 @@ title: 未来への道を作る
 classes: wide
 header:
   overlay_image: /assets/img/Government-Officials-Making-Survey-of-the-Alley.jpg
-  overlay_filter: 0.2
-  show_overlay_excerpt: false
   caption: "道路建設の事前調査を実施する政府職員 場所: ワットボー、シェムリアップ 撮影者: Tomoyuki Sakurai"
 tags:
   - micronews
@@ -14,8 +12,6 @@ excerpt: |
   シェムリアップ川の東側に位置するワットボーエリアにMakersはあります。静かで居心地もよく、パブストリートにも近く、それでいて夜な夜な繰り広げられるパーティの喧騒からは遠い場所です。在住外国人にも人気の住宅地として知られています。静かで緑も多く、交通量も少ないです。
 
 ---
-
-## ワットボー
 
 シェムリアップ川の東側に位置するワットボーエリアにMakersはあります。静かで居心地もよく、パブストリートにも近く、それでいて夜な夜な繰り広げられるパーティの喧騒からは遠い場所です。在住外国人にも人気の住宅地として知られています。静かで緑も多く、交通量も少ないです。
 
