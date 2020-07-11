@@ -2,6 +2,10 @@
 {% assign lang = site.active_lang | default: "en" %}
 <script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
 {% if lang != "en" %}
+<script src="{{ '/assets/js/lunr-languages/tinyseg.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/lunr-languages/lunr.stemmer.support.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/lunr-languages/lunr.' | append: site.active_lang | append: '.js' | relative_url }}"></script>
+
 <script src="{{ lang | append: '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
 <script src="{{ lang | append: '/assets/js/lunr/lunr-lang.js' | relative_url }}"></script>
 {% else %}
