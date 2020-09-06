@@ -18,9 +18,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% capture post_relative_url %}
-{{ post.url | relative_url }}
-{% endcapture %}
+{% assign post_relative_url = post.url | relative_url %}
 
 {% capture more_label %}
 {{ site.data.ui-text[site.active_lang].more_label }}
@@ -49,7 +47,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <a href="{{ post.url | relative_url }}" rel="permalink">
+        <a href="{{ post_relative_url }}" rel="permalink">
           <img class="align-left img-fluid" src="{{ teaser | relative_url }}" alt="{{ teaser_alt | strip_html }}" style="width:100%; height:200px; object-fit: cover;">
         </a>
       </div>
