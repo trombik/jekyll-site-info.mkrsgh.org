@@ -11,3 +11,18 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* bootstrap defines color for pre, which takes precedence over
+ * minimal_mistakes. */
+pre.lineno {
+    color: $base04;
+}
+
+/* same as in `pre.lineno`. adjust font-size in syntax highlight */
+div.highlighter-rouge {
+    font-size: 1em;
+}
+
+table.rouge-table {
+    font-size: 1.5em;
+}
