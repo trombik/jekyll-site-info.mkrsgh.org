@@ -10,6 +10,7 @@ node_modules/
 .jekyll-cache/
 *.tfstate
 *.tfstate.backup
+*.swp
 _terraform/.terraform
 assets/img/*/resized/*
 assets/img/resized/*
