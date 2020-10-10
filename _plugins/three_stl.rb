@@ -1,25 +1,30 @@
+# frozen_string_literal: true
+
 require "digest"
 
 module Jekyll
   class Three
+    # custom liquid tag to display an object in TSL file.
+    #
+    # usage:
+    # three_stl url
     class STL < Liquid::Tag
-
-      @@DEFAULTS = {
+      @defaults = {
       }
       def initialize(tag_name, markup, tokens)
         super
         @config = {}
-        override_config(@@DEFAULTS)
+        override_config(@defaults)
         params = markup.split
         @stl_url = params.shift.strip
       end
 
-      def override_config(config)
-        config.each{ |key,value| @config[key] = value }
+      def override_config(_config)
+        @config.each { |key, value| @config[key] = value }
       end
 
-      def render(context)
-        player = format("player_%<sha1>s", sha1(@stl_url))
+      def render(_context)
+        player = format("player_%<sha1>s", { sha1: sha1(@stl_url) })
         <<-HTML.gsub(/^\s+/, "")
         <div id="#{div_id}"></div>
         <script type="module">
