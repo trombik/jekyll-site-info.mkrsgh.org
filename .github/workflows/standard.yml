@@ -1,0 +1,23 @@
+---
+name: Run standard
+
+on:
+  - push
+  - pull
+
+jobs:
+  build:
+    name: Run standard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+
+      - name: Install packages
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
+
+      - name: Run standard
+        run: |
+          node_modules/.bin/standard --fix assets/js/three_stl.js
