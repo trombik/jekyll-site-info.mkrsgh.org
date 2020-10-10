@@ -3,7 +3,7 @@ name: Run standard
 
 on:
   - push
-  - pull
+  - pull_request
 
 jobs:
   build:
