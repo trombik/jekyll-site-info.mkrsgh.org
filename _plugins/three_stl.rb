@@ -23,14 +23,14 @@ module Jekyll
         <h2>Three</h2>
         <div id="#{div_id}"></div>
         <script type="module">
-          import * as THREE_STL from '/assets/js/three_stl.js';
+          import * as THREE_STL from '/assets/js/three_stl.js'
           var player_#{sha1(@stl_url)}
           player_#{sha1(@stl_url)} = new THREE_STL.Player()
           player_#{sha1(@stl_url)}.init({
             url: "#{@stl_url}",
             canvas_id: "#{div_id}",
           })
-          player_#{sha1(@stl_url)}.animate();
+          player_#{sha1(@stl_url)}.animate()
         </script>
         HTML
       end
