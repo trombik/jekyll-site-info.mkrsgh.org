@@ -88,9 +88,10 @@ var Player = function () {
     var camera = new THREE.PerspectiveCamera(35, aspect, 1, 1000)
 
     // depends on the size of the object
-    var x = Math.max(boxSize.x, boxSize.z) * 3
-    var y = x
-    var z = x
+    var max = Math.max(boxSize.x, boxSize.z)
+    var x = max * 2
+    var y = max * 3
+    var z = max * 2
     camera.position.set(x, y, z)
     camera.lookAt(new THREE.Vector3(0, 0, 0))
     return camera
@@ -98,6 +99,13 @@ var Player = function () {
   // create light
   function _createLights () {
     return new THREE.HemisphereLight(0x443333, 0x111122, 5)
+  }
+
+  function _createDirectionalLight () {
+    var spotLight = new THREE.DirectionalLight(0xffffff, 0.2)
+    spotLight.castShadow = true
+    spotLight.position.set( 2000, 1000, 200 );
+    return spotLight
   }
 
   // create an WebGL renderer
@@ -111,10 +119,13 @@ var Player = function () {
         var size = _getBindingBoxSize(mesh)
         mesh.position.y += size.y / 2
         var ground = _createGround(size)
+        mesh.castShadow = false
         var grid = _createGrid(size)
         camera = _createCamera(size)
         var light = _createLights()
+        var spotLight = _createDirectionalLight()
         renderer = _createRenderer()
+        renderer.shadowMap.enabled = true
         control = _createControl(camera, renderer)
         scene = new THREE.Scene()
         scene.background = new THREE.Color(0x292b2c)
@@ -122,6 +133,7 @@ var Player = function () {
         scene.add(grid)
         scene.add(camera)
         scene.add(light)
+        scene.add(spotLight)
         scene.add(mesh)
         resolve(scene)
       })
