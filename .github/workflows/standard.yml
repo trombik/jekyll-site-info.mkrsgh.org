@@ -20,4 +20,4 @@ jobs:
 
       - name: Run standard
         run: |
-          node_modules/.bin/standard --fix assets/js/three_stl.js
+          node_modules/.bin/standard
