@@ -104,7 +104,7 @@ var Player = function () {
   function _createDirectionalLight () {
     var spotLight = new THREE.DirectionalLight(0xffffff, 0.2)
     spotLight.castShadow = true
-    spotLight.position.set( 2000, 1000, 200 );
+    spotLight.position.set(2000, 1000, 200)
     return spotLight
   }
 
