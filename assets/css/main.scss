@@ -26,3 +26,16 @@ div.highlighter-rouge {
 table.rouge-table {
     font-size: 1.5em;
 }
+
+/* .pi is missing in _sass/minimal-mistakes/_syntax.scss, which causes `:`,
+ * `"`, and others are colored in black, which is inherited from default.
+ * the token, `pi` is not defined in Pygments, but is in Rouge. more
+ * investigation is required for understanding what is going on.
+ */
+
+.highlight {
+  .pi {
+    /* Punctuation */
+    color: $base05;
+  }
+}
