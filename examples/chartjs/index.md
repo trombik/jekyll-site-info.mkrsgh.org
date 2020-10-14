@@ -185,11 +185,11 @@ chartjs:
 
 ### Tag in the post
 
-{% raw %}
 ```ruby
+{% raw %}
 {% chartjs name=simple_bar_chart %}
-```
 {% endraw %}
+```
 
 ## Simple line chart
 
@@ -223,8 +223,8 @@ chartjs:
 
 ### Tag
 
-{% raw %}
 ```ruby
+{% raw %}
 {% chartjs name=simple_line_chart %}
-```
 {% endraw %}
+```
