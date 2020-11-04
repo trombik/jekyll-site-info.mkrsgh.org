@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Logistics updates in Siem Reap
 classes: single
 tags:
