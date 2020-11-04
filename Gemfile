@@ -30,8 +30,7 @@ end
 gem "minimal-mistakes-jekyll"
 
 # XXX https://github.com/guard/listen/issues/475
-require 'rbconfig'
-if RbConfig::CONFIG['target_os'] =~ /(?i-mx:bsd|dragonfly)/
+require "rbconfig"
+if RbConfig::CONFIG["target_os"] =~ /(?i-mx:bsd|dragonfly)/
   gem "rb-kqueue", git: "https://github.com/stevebob/rb-kqueue.git", branch: "handle-unexpected-events"
 end
-
