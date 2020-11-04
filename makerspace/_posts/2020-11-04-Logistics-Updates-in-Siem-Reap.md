@@ -8,7 +8,7 @@ tags:
 
 I have been making several purchases from AliExpress since the last post about
 shipping from China to Cambodia
-([Logistic recovering from Covid 19](../../../2020/07/09/Logistic-Recovering-from-Covid-19.md)).
+([Logistic recovering from Covid 19](../../../../2020/07/09/Logistic-Recovering-from-Covid-19)).
 Here is the summary: it takes a bit longer than before, but reasonably fast.
 
 Most of my orders are electronics parts, meaning, they are small. Even when I
