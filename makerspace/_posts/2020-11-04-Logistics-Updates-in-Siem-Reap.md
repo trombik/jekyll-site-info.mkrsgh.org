@@ -2,25 +2,25 @@
 title: Logistics updates in Siem Reap
 classes: single
 tags:
-  - aliexpress
+  - AliExpress
 
 ---
 
-I have been making several purchases from Aliexpress since the last post about
+I have been making several purchases from AliExpress since the last post about
 shipping from China to Cambodia
 ([Logistic recovering from Covid 19](../../../2020/07/09/Logistic-Recovering-from-Covid-19.md)).
 Here is the summary: it takes a bit longer than before, but reasonably fast.
 
 Most of my orders are electronics parts, meaning, they are small. Even when I
 order several parts, my favourite seller ships them in a package, similar in
-size to smartphone products in a box. I always choose Aliexpress Standard
+size to smartphone products in a box. I always choose AliExpress Standard
 Shipping where possible because it is the cheapest option with tracking
 information. Tracking information is essential in this country as most of
 couriers &mdash; including DHL &mdash; do not deliver items to your home. They call you
-when items arrive, but, sometimes mistakes happen. When you choose Aliexpress
+when items arrive, but, sometimes mistakes happen. When you choose AliExpress
 Standard Shipping, dispute process is much easier if the issue is caused by
-logistics. In that case, Aliexpress directly processes the dispute request,
-and when they confirm it, they will refund immediately. Aliexpress does not
+logistics. In that case, AliExpress directly processes the dispute request,
+and when they confirm it, they will refund immediately. AliExpress does not
 deliver items, but uses third-party couriers, often Singapore Post in South
 East Asian countries, instead.
 
@@ -42,4 +42,4 @@ started talks with Asian countries, namely Thailand, Singapore, Taiwan, Korea,
 Vietnam, and China. Travel restrictions will be eased for travellers from
 these countries soon.
 
-It's about time to work on stacked projects and to make storages for the parts!
+It's about time to work on stacked projects and to make storage for the parts!
