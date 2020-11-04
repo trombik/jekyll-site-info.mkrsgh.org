@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stevebob/rb-kqueue.git
+  revision: 144ee7bb7963c77fc219ba736df7ee952d50ab19
+  branch: handle-unexpected-events
+  specs:
+    rb-kqueue (0.2.5)
+      ffi (>= 0.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,6 +175,7 @@ DEPENDENCIES
   jekyll-youtube
   minimal-mistakes-jekyll
   rake
+  rb-kqueue!
   rqrcode
   rubocop
 
