@@ -63,7 +63,7 @@ excerpt: |
 
 {% youtube "https://www.youtube.com/watch?v=oNLf6aFYVoU" %}
 
-[Wikipediaによるbicro:bitの記事](https://ja.wikipedia.org/wiki/BBC_Micro:bit)ではこう説明されています。
+[Wikipediaによるmicro:bitの記事](https://ja.wikipedia.org/wiki/BBC_Micro:bit)ではこう説明されています。
 
 > BBC Micro:bitは、1980年代に情報教育のために英国放送協会が開発したBBC Microが各学校で使用されたように、英国の11歳と12歳の小学生全員に配布される低消費電力、低コストのシングルボードコンピュータ
 
