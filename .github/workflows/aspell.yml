@@ -6,7 +6,7 @@ on:
 
 jobs:
   aspell:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: Check spellings in markdown files
     steps:
       - name: Checkout the repository
