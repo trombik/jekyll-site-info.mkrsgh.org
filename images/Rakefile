@@ -14,7 +14,7 @@ def qrcode_url(url)
 end
 
 def url_safe_filename_from_url(url)
-  url.gsub(%r{[/]}, "-").to_s
+  url.gsub(%r{/}, "-").to_s
 end
 
 task default: urls
