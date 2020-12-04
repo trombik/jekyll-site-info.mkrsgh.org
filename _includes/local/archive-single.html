@@ -40,7 +40,7 @@
           {{ site.data.ui-text[site.active_lang].date_label | default: "Updated:" }} <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
           {% if post.read_time %}
           <br />
-          <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
+          <i class="far fa-clock" aria-hidden="true"></i> {% include page__meta.html %}
           {% endif %}
         </p>
       </div>
