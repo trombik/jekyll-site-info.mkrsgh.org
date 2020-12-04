@@ -18,6 +18,10 @@ pre.lineno {
     color: $base04;
 }
 
+pre.highlight {
+    color: $base05;
+}
+
 /* same as in `pre.lineno`. adjust font-size in syntax highlight */
 div.highlighter-rouge {
     font-size: 1em;
