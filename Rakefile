@@ -42,7 +42,7 @@ task :aspell do
     # package is updated.
     o, e, status = Open3.capture3 "aspell " \
       "--lang en " \
-      "--mode html " \
+      "--mode markdown " \
       "--personal ./.aspell.en.pws list",
                                   stdin_data: content
     raise "failed to run aspell: #{e}" unless status.success?
