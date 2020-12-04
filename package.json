@@ -7,9 +7,9 @@
         "standard": "^14.3.4"
     },
     "standard": {
-      "ignore": [
-        "/assets/js/lunr/",
-        "/assets/js/lunr-languages/"
-      ]
+        "ignore": [
+            "/assets/js/lunr/",
+            "/assets/js/lunr-languages/"
+        ]
     }
 }
