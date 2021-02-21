@@ -142,6 +142,7 @@ and my observation of the two, I picked them up for comparison.
 |                            | [`Saola-1`](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html) | [`nanoESP32-S2`](https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/) |
 |----------------------------|----------------------------|---------------------|
 | Schematic                  | [ESP32-S2-SAOLA-1_V1.1_schematics.pdf](https://dl.espressif.com/dl/schematics/ESP32-S2-SAOLA-1_V1.1_schematics.pdf) | [nanoESP32S2-v1.2.pdf](https://github.com/wuxx/nanoESP32-S2/blob/master/schematic/nanoESP32S2-v1.2.pdf) |
+| Chip                       | ESP32-S2-WROOM             | ESP32-S2-WROVER     |
 | `LDO`                      | `SGM2212`                  | `AMS1117`           |
 | Size of `WS2812`           | 3.5 mm x 3.3 mm            | 3.2 mm x 2.5 mm     |
 | USB receptacle             | USB Micro-B * 1            | USB Type C * 2      |
@@ -162,6 +163,10 @@ difficult to push, but I am fine with it. `ESP32-S2-SAOLA-1` has more passive
 components not only for `CP2102`, but also for protection, such as clamping
 diodes and current limiting resistors. `nanoESP32-S2` only has a fuse for
 protection.
+
+Note that, while my `nanoESP32-S2` has `ESP32-S2-WROVER` module, you can
+choose `ESP32-S2-WROOM` if you like. IPEX antenna connector versions are also
+available.
 
 The major issue in `nanoESP32-S2` to me is: the LDO. `AMS1117` is the de-facto
 LDO on many ESP32 and ESP8266 boards, but the LDO tends to cause stability
