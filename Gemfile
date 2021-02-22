@@ -24,7 +24,10 @@ group :jekyll_plugins do
   gem "jekyll-minifier"
   gem "jekyll-paginate-v2"
   gem "jekyll-polyglot"
-  gem "jekyll-responsive-image"
+
+  # XXX fixes wildlyinaccurate#101
+  gem "jekyll-responsive-image", git: "https://github.com/salomvary/jekyll-responsive-image.git", ref: "25c6695d"
+
   gem "jekyll-youtube"
 end
 gem "minimal-mistakes-jekyll"
