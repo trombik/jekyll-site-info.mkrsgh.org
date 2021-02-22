@@ -8,7 +8,9 @@ header:
 toc: true
 tags:
   - esp32
+  - esp32s2
   - esp-idf
+  - review
 
 ---
 
