@@ -6,8 +6,8 @@
 {% endcapture %}
 <figure class="{{ class }}">
   <a href="/{{ original.path }}" class="image-popup">
-  <img src="/{{ largest.path }}"
-       alt="{{ alt }}"
+      <img src="/{% if largest %}{{ largest.path }}{% else %}{{ original.path }}{% endif %}"
+           alt="{% if alt %}{{ alt }}{% elsif caption %}{{ caption | strip_html }}{% else %}{% endif %}"
        srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
        >
   </a>
