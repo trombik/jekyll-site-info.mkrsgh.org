@@ -1,6 +1,7 @@
 personal_ws-1.1 en 0
 ACK
 Adafruit
+ADCs
 ADSL
 Aiony
 Aliexpress
@@ -11,6 +12,7 @@ APs
 arduino
 ASEAN
 ATmega
+atten
 ATtiny
 AVR
 backgroundColor
@@ -26,6 +28,7 @@ borderWidth
 bps
 btn
 BwXxxg
+Capacitive
 capita
 cG
 CHANGEME
@@ -51,6 +54,7 @@ DHL
 dir
 DNS
 donts
+eFuse
 endcomment
 endfor
 endif
@@ -208,6 +212,7 @@ uptime
 url
 USD
 Uw
+Vcc
 vias
 wat
 Wat
