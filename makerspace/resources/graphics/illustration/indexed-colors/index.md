@@ -51,8 +51,8 @@ for details.
 %}
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/02-image.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/02-image.png"
+    alt: "The opened image in GIMP"
 %}
 
 ## Removing details
@@ -62,12 +62,14 @@ unticked.
 
 {% responsive_image
     path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/03-filter-despeckle.png"
+    caption: "Despeckle filter dialog"
 %}
 
 The image becomes blurred a bit.
 
 {% responsive_image
     path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/03-image.png"
+    caption: "The image with Despeckle filter applied"
 %}
 
 Select `Filter` > `Blur` > `Selective Gaussian Blur`. Accept all defaults, and
@@ -75,12 +77,14 @@ click `OK` to apply.
 
 {% responsive_image
     path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/04-filter-selective-gaussian-blur.png"
+    caption: "Selective Gaussian Blur filter dialog"
 %}
 
 Details has been removed from the image.
 
 {% responsive_image
     path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/04-image.png"
+    caption: "The image with Selective Gaussian Blur filter applied"
 %}
 
 ## Reducing colors
@@ -89,15 +93,15 @@ Select `Image` > `Mode` > `Indexed`. In the dialog, select `Generate optimum
 palette`, choose 32 in `Maximum numbers of colors`. Click `Convert` to apply.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/05-indexed-color-conversion.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/05-indexed-color-conversion.png"
+    caption: "Indexed Color Mode dialog"
 %}
 
 Now the image has 32 colours.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/05-image.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/05-image.png"
+    alt: "The image with reduced colours"
 %}
 
 Back to RGB mode by selecting `Image` > `Mode` > `RGB`.
@@ -106,8 +110,8 @@ Optionally, you may smooth outlines further again by `Filter` > `Enhance` >
 `Despeckle`. In the dialog, make sure `adaptive` is unticked.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/06-image.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/06-image.png"
+    caption: "The image with Despeckle filter applied again"
 %}
 
 ## Exporting the modified image
@@ -120,15 +124,15 @@ Export the modified image by `File` > `Export As ...`. Choose a name of the
 file, such as `example.png`.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/07-export.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/07-export.png"
+    caption: "Export dialog"
 %}
 
 In `Export Image as PNG` dialog, accept all the defaults by clicking `Export`.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/08-export-image-as-png.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/08-export-image-as-png.png"
+    caption: "Export Image as PNG dialog"
 %}
 
 ## Create paths by tracing colours
@@ -136,13 +140,13 @@ In `Export Image as PNG` dialog, accept all the defaults by clicking `Export`.
 Launch `inkscape`. Import the `PNG` file by `File` > `Open`.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/09-open.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/09-open.png"
+    caption: "Open dialog of inkscape"
 %}
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/10-image.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/10-image.png"
+    caption: "Opened image"
 %}
 
 Select `Path` > `Trace Bitmaps`. On `Trace bitmaps` tab, select `Multiple
@@ -150,21 +154,21 @@ scans` and `Colors`, and increase `Scans` to 32. To see the preview, click the
 window in which the image is shown. Click `OK` to apply the change.
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/11-trace-bitmaps.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/11-trace-bitmaps.png"
+    caption: "Opening Trace bitmap menu"
 %}
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/11-trace-bitmaps-dialog.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/11-trace-bitmaps-dialog.png"
+    alt: "Trace bitmap dialog"
 %}
 
 With `Edit paths by nodes` tool, you can see the generated paths.
 {: .notice--info }
 
 {% responsive_image
-    path:
-    "assets/img/makerspace/resources/graphics/illustration/indexed-colors/12-edit-paths-by-nodes.png"
+    path: "assets/img/makerspace/resources/graphics/illustration/indexed-colors/12-edit-paths-by-nodes.png"
+    caption: "Showing generated paths by using Edit Paths by Nodes tool"
 %}
 
 ## Further improvements
