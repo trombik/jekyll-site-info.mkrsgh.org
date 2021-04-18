@@ -5,10 +5,12 @@
 {% endfor %}
 {% endcapture %}
 <figure class="{{ class }}">
+  <a href="/{{ original.path }}" class="image-popup">
   <img src="/{{ largest.path }}"
        alt="{{ alt }}"
        srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
        >
+  </a>
   {% if caption %}
     <figcaption>
       {{ caption }}
