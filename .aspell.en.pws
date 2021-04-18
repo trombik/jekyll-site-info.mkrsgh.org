@@ -1,7 +1,9 @@
 personal_ws-1.1 en 0
 ACK
 Adafruit
+ADCs
 ADSL
+Aiony
 Aliexpress
 AliExpress
 amin
@@ -10,6 +12,7 @@ APs
 arduino
 ASEAN
 ATmega
+atten
 ATtiny
 AVR
 backgroundColor
@@ -25,6 +28,7 @@ borderWidth
 bps
 btn
 BwXxxg
+Capacitive
 capita
 cG
 CHANGEME
@@ -44,11 +48,13 @@ datasets
 datasheet
 de
 De
+despeckle
 DHCP
 DHL
 dir
 DNS
 donts
+eFuse
 endcomment
 endfor
 endif
@@ -64,11 +70,13 @@ FreeBSD
 FreeCAD
 FTDI
 Fu
+gaussian
 george
 GPIO
 GPIOs
 hasani
 Hasani
+Haust
 HK
 Hootsuite
 href
@@ -198,10 +206,13 @@ uA
 unicast
 unsplash
 Unsplash
+unticked
+unticked
 uptime
 url
 USD
 Uw
+Vcc
 vias
 wat
 Wat
@@ -214,6 +225,7 @@ WOOR
 workpiece
 WROOM
 WROVER
+xcf
 Xinyuan
 yAxes
 youtube
