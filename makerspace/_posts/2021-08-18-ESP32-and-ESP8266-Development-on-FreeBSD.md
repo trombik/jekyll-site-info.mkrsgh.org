@@ -93,7 +93,7 @@ the SDK designed for the GCC version used in the `esp8266/Arduino`. At the momen
 `esp8266/Arduino` version 3.x.x uses GCC 10.x, `esp8266/Arduino` version 2.x.x
 uses GCC 4.8.
 
-I ported the toolchain for FreeBSD &mdash; `devel/esp-quick-toolchain` &mdash
+I ported the toolchain for FreeBSD &mdash; `devel/esp-quick-toolchain` &mdash;
 which can be found at:
 [trombik/freebsd-ports-esp-quick-toolchain](https://github.com/trombik/freebsd-ports-esp-quick-toolchain/tree/main/devel/esp-quick-toolchain).
 
