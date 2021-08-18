@@ -45,7 +45,7 @@ version. Choose the one you are using. Note that there is no reason to develop
 new application with `esp-idf` version 3.x. The version 4.x is far better. If
 you are developing your own code, choose `idf4`.
 
-## `espressif/arduino-esp32`
+## espressif/arduino-esp32
 
 Choose this SDK, if you want to write C++ code, or to use `arduino` libraries.
 
