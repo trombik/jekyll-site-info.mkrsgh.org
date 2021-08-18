@@ -58,7 +58,7 @@ choose version.
 
 For `ESP8266`, there are two options: [ESP8266 RTOS SDK](https://github.com/espressif/ESP8266_RTOS_SDK),
 or `esp-idf`, and [`esp8266/Arduino`](https://github.com/esp8266/Arduino).
-ESP8266 RTOS SDK works when it works, but `esp8266/Arduino` is better. 
+ESP8266 RTOS SDK works when it works, but `esp8266/Arduino` is better.
 [esp-open-rtos](https://github.com/SuperHouse/esp-open-rtos) is another
 option, but is not updated very often.
 
