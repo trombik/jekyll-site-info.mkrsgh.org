@@ -134,7 +134,7 @@ values in a loop, publishing values over MQTT, displaying results on a display,
 performing `OTA`, etc. Even when there are many libraries available, it is
 still repetitive, and boring.  `esphome` do these routines, and you can focus
 on the core logic. All your code is in a `YAML` file, but you can implement
-quite complex logics.  `esphome` is actually using `platformio` as their build
+quite complex logic.  `esphome` is actually using `platformio` as their build
 system.  If `platformio` works on your machine, `esphome` should work, too.
 `esphome` is C++ framework, using `esp8266/Arduino` behind the scene. That
 means you need to install my `devel/esp-quick-toolchain` port.
