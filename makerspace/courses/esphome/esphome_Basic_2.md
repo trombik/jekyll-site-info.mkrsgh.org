@@ -36,14 +36,14 @@ battery, etc. In this example, we will use a Passive Infrared Sensor, PIR in
 short.
 
 A PIR sensor measures infrared light from objects. Infrared light is light but
-human being cannot view it because the wavelength is too high. Infrared light
-is used most commonly in remote controllers for air-con, or TVs. Human being
-generates infrared light. By measuring strength of infrared light, PIR sensor
-can detect movements of objects. PIR sensors are used in automatic doors,
-security systems, and lighting systems. The sensor outputs signals when it
-detects a moving object.  Example applications are: turning on lights at night
-when the sensor detects something, or taking a photo while doing nothing when
-nothing is moving.
+human being cannot view it because the wavelength is longer than visible
+light. Infrared light is used most commonly in remote controllers for air-con,
+or TVs. Human being generates infrared light. By measuring strength of
+infrared light, PIR sensor can detect movements of objects. PIR sensors are
+used in automatic doors, security systems, and lighting systems. The sensor
+outputs signals when it detects a moving object.  Example applications are:
+turning on lights at night when the sensor detects something, or taking a
+photo while doing nothing when nothing is moving.
 
 Most of PIR sensors outputs high signal when something is moving. Your device
 reads the status of the signal line, and when the signal is high, do
