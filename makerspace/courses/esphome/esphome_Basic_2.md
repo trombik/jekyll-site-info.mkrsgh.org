@@ -5,6 +5,7 @@ header:
   overlay_filter: 0.5
   image_description: An example 3D model object
 tagline: Using a sensor
+mathjax: true
 
 ---
 
@@ -55,6 +56,17 @@ The PIR sensor used in this example is able to source enough power to an LED.
 You can test it without microcontroller.  In this example, we will use a
 breadboard, a construction base for prototyping circuits. With a breadboard,
 you do not need to solder parts.
+
+The sensor IC,
+[BISS0001](https://cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf),
+has an output signal pin, whose absolute max rating is 10mA. Make sure to
+choose a correct value of current limiting resistor.
+
+From the Ohm's law:
+$ R = { Vcc - Vf \over I } = 325 $
+where $Vcc$, the supply voltage, is 5 V, $Vf$, forward voltage of the LED, is
+1.75 V, $I$, the current, is 10 mA. $R$ should be more than 325 ohm. I usually
+choose 1K ohm as most of red LEDs emits enough light with just a few mA.
 
 `VCC` pin is connected to 5V power rail. `GND` pin is connected to `GND` rail.
 The `OUT` pin is connected to the anode of the LED. The cathode of the LED is
