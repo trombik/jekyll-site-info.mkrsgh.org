@@ -1,0 +1,28 @@
+---
+layout: single
+
+---
+
+{{ content }}
+
+{% assign course = site.data.courses[page.course] %}
+
+{{ course.desc }}
+
+<h2>Lessons</h2>
+
+<ul class="list-group">
+{% for lesson in course.lessons %}
+{% assign path = "makerspace/courses/" | append: page.course | append: "/" | append: lesson.name %}
+{% assign lesson_page = site.pages | where: "path", path | first %}
+{% assign more_label = site.data.ui-text[site.active_lang].more_label %}
+{% assign url = lesson_page.url %}
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+      <p><a href="{{ url }}">{{ lesson_page.title }}</a>: {{ lesson_page.content | strip_html | truncatewords: 20 }}</p>
+    {% include local/linked_button.html
+      text = more_label
+      url = url
+    %}
+  </li>
+{% endfor %}
+<ul>
