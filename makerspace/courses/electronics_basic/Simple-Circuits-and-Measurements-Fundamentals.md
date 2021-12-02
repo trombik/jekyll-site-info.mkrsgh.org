@@ -12,7 +12,8 @@ circuits using real hardware.
 
 This lesson is a workshop, based on "Electronics - Level 1 Simple Circuits &
 Measurements Fundamentals", which is kindly provided by [University of Colorado
-Boulder](https://www.colorado.edu/).
+Boulder](https://www.colorado.edu/). After the workshop, you will learn more
+details in [other lessons](#other-lessons).
 
 Please visit
 [Intro to Circuits](https://canvas.colorado.edu/courses/63227/pages/workshop-outline-intro-to-circuits).
