@@ -26,7 +26,7 @@ $$ I = { V \over R } $$
 
 When the current is 1 A, and the resistor is 2 ohm, the voltage is;
 
-$$ V = I R = 1 A * 2 ohm = 2 (V) $$
+$$ V = I \times R = 1 A \times 2 ohm = 2 (V) $$
 
 When the voltage is 5 V, and the current is 500 mA (0.5 A), the resistor is:
 
@@ -36,8 +36,11 @@ When the voltage is 5 V, and the resistor is 2 ohm, the current is;
 
 $$ I = { V \over R } = { 5 V \over 2 ohm } = 2.5 (A) $$
 
-## Power
+## Power equation
 
-$$ P (W) = V \times I $$
+Power is an amount of work. For example, a 1,000 W fan does two times more work
+than 500 W fan, i.e. it makes more flow of wind.
+
+$$ P (W) = V \times I = ( I \times R ) \times I = I^2 \times R $$
 
 ## Other lessons
