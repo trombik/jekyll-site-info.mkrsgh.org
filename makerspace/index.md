@@ -3,13 +3,8 @@ layout: splash
 hidden: true
 header:
   overlay_color: "#5e616c"
-  actions:
-    - label: "<i class='fas fa-hands'></i> Support the project"
-      url: "https://www.kickstarter.com/projects/trombik/1274353640?ref=4wrsfe&token=4bdafeb9"
 tagline: |
-  The first makerspace in Siem Reap, Cambodia.<br />
-  <small>Are you a maker? Do you want better educational programs for kids in
-  Siem Reap? Become a kickstart backer of the project!</small>
+  The first makerspace in Siem Reap, Cambodia.
 
 showcases:
   - image_path: /assets/img/zan-wGqz5YSqsfk-unsplash-1500.jpg
