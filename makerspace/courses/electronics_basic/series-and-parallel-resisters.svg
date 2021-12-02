@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 32.272 49.787" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Arrow1Lend" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-85.26 -172.99)">
+  <g transform="translate(-2.9239 6.2487)">
+   <text x="91.331451" y="184.91194" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="91.331451" y="184.91194" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">1</tspan></tspan></text>
+   <g transform="rotate(90 -80.81 78.511)">
+    <title>Resistor</title>
+    <g fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+     <path d="m30.427-90.615v-2.6458"/>
+     <path d="m30.427-98.552v-2.6458"/>
+     <path d="m29.104-95.906v-2.6458h2.6458v5.2917h-2.6458v-2.6458" stroke-linejoin="round"/>
+    </g>
+    <title>Resistor</title>
+   </g>
+  </g>
+  <g fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="103.1861" y="184.30557" style="line-height:1.25" xml:space="preserve"><tspan x="103.1861" y="184.30557" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">2</tspan></tspan></text>
+   <text x="104.70222" y="176.0712" style="line-height:1.25" xml:space="preserve"><tspan x="104.70222" y="176.0712" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">I</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">2</tspan></tspan></text>
+   <text x="96.399742" y="222.77234" style="line-height:1.25" xml:space="preserve"><tspan x="96.399742" y="222.77234" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">V</tspan></tspan></text>
+  </g>
+  <g transform="rotate(90 -74.58 84.136)">
+   <title>Resistor</title>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+    <path d="m30.427-90.615v-2.6458"/>
+    <path d="m30.427-98.552v-2.6458"/>
+    <path d="m29.104-95.906v-2.6458h2.6458v5.2917h-2.6458v-2.6458" stroke-linejoin="round"/>
+   </g>
+   <title>Resistor</title>
+  </g>
+  <g transform="translate(11.981 13.104)">
+   <text x="91.331451" y="184.91194" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="91.331451" y="184.91194" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">3</tspan></tspan></text>
+   <g transform="rotate(90 -80.81 78.511)">
+    <title>Resistor</title>
+    <g fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+     <path d="m30.427-90.615v-2.6458"/>
+     <path d="m30.427-98.552v-2.6458"/>
+     <path d="m29.104-95.906v-2.6458h2.6458v5.2917h-2.6458v-2.6458" stroke-linejoin="round"/>
+    </g>
+    <title>Resistor</title>
+   </g>
+   <path d="m85.257 175.32v-8.7669h16.554v8.6002" fill="none" marker-end="url(#Arrow1Lend)" stroke="#000" stroke-width=".26458px"/>
+  </g>
+  <g transform="rotate(-90 142.81 123.39)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+   <path d="m51.594 73.427v1.3229"/>
+   <path d="m51.594 76.073v-1.3229"/>
+   <path d="m51.594 81.365v2.6458"/>
+   <path d="m48.419 78.19h6.35"/>
+   <path d="m49.477 79.248h4.2333"/>
+   <path d="m51.594 78.19v-2.1167"/>
+   <path d="m51.594 79.248v2.1167"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-width=".26458px">
+   <path d="m100.17 189.14 0.12656 13.71"/>
+   <path d="m110.75 189.14 0.12656 13.71"/>
+   <path d="m95.975 196h4.3017"/>
+   <path d="m85.392 196 0.01365 18.615 7.4389-2e-3"/>
+   <path d="m110.93 195.82h6.4666v18.787h-13.971"/>
+  </g>
+ </g>
+</svg>
