@@ -324,6 +324,9 @@ defaults:
       path: makerspace/courses
       type: pages
     values:
+      header:
+        overlay_image: /assets/img/TBHS-model.png
+        overlay_filter: 0.5
       toc: true
       toc_sticky: true
       layout: single

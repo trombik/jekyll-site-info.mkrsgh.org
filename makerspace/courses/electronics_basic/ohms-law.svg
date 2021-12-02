@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 36.718 47.59" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Arrow2Lend" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="context-stroke" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="Arrow2Lend-7" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="context-stroke" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="Arrow2Lend-7-0" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="context-stroke" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+ </defs>
+ <g transform="translate(-80.937 -112.12)">
+  <text x="98.115921" y="114.17268" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="98.115921" y="114.17268">V</tspan><tspan x="98.115921" y="117.70046"/></text>
+  <path d="m107.74 128.27c-0.14856-3.1536-4.4752-10.034-8.4997-10.047-4.0303-0.0133-7.7588 6.8445-8.3002 9.8294" fill="none" marker-end="url(#Arrow2Lend)" stroke="#000" stroke-width=".26458px"/>
+  <path d="m112.26 137.32v11.5" fill="none" marker-end="url(#Arrow2Lend-7)" stroke="#000" stroke-width=".26458px"/>
+  <text x="117.09965" y="144.27164" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="117.09965" y="144.27164">I</tspan><tspan x="117.09965" y="147.79941"/></text>
+  <g transform="translate(-34.386 -24.542)">
+   <path d="m116.5 173.71v-11.5" fill="none" marker-end="url(#Arrow2Lend-7-0)" stroke="#000" stroke-width=".26458px"/>
+   <text x="121.33512" y="169.16492" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="121.33512" y="169.16492">I</tspan><tspan x="121.33512" y="172.69269"/></text>
+  </g>
+  <g transform="rotate(-90 111.58 90.196)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+   <path d="m51.594 73.427v1.3229"/>
+   <path d="m51.594 76.073v-1.3229"/>
+   <path d="m51.594 81.365v2.6458"/>
+   <path d="m48.419 78.19h6.35"/>
+   <path d="m49.477 79.248h4.2333"/>
+   <path d="m51.594 78.19v-2.1167"/>
+   <path d="m51.594 79.248v2.1167"/>
+  </g>
+  <text x="94.78241" y="159.11777" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="94.78241" y="159.11777" stroke-width=".26458">Battery</tspan></text>
+  <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".256">
+   <ellipse cx="106.69" cy="135.91" rx=".40117" ry=".39902" style="paint-order:normal"/>
+   <ellipse cx="106.74" cy="150.19" rx=".40117" ry=".39902" style="paint-order:normal"/>
+  </g>
+  <g transform="translate(-17.301 .14358)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".256">
+   <ellipse cx="109.31" cy="135.76" rx=".40117" ry=".39902" style="paint-order:normal"/>
+   <ellipse cx="109.26" cy="150.09" rx=".40117" ry=".39902" style="paint-order:normal"/>
+  </g>
+  <path d="m94.395 135.91h-2.389l-0.04891 14.325 2.8527-0.0498" fill="none" stroke="#000" stroke-width=".26458px"/>
+  <path d="m104.98 135.91h1.7145l0.0474 14.28-1.347-5e-3" fill="none" stroke="#000" stroke-width=".26458px"/>
+  <text x="95.689865" y="147.99196" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="95.689865" y="147.99196">+</tspan><tspan x="95.689865" y="151.51973"/></text>
+  <text x="102.0407" y="147.88034" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="102.0407" y="147.88034">-</tspan><tspan x="102.0407" y="151.40811"/></text>
+  <g transform="rotate(90 -50.849 54.629)">
+   <title>Resistor</title>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+    <path d="m30.427-90.615v-2.6458"/>
+    <path d="m30.427-98.552v-2.6458"/>
+    <path d="m29.104-95.906v-2.6458h2.6458v5.2917h-2.6458v-2.6458" stroke-linejoin="round"/>
+   </g>
+   <title>Resistor</title>
+  </g>
+  <text x="98.608459" y="130.59808" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="98.608459" y="130.59808">R</tspan><tspan x="98.608459" y="134.12585"/></text>
+  <g transform="translate(-.38044)" fill="#000000" font-family="sans-serif" font-size="2.8222px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="89.324112" y="133.79553" style="line-height:1.25" xml:space="preserve"><tspan x="89.324112" y="133.79553">A</tspan><tspan x="89.324112" y="137.3233"/></text>
+   <text x="108.37596" y="133.79553" style="line-height:1.25" xml:space="preserve"><tspan x="108.37596" y="133.79553">B</tspan><tspan x="108.37596" y="137.3233"/></text>
+  </g>
+ </g>
+</svg>

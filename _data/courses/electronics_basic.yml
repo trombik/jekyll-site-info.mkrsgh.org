@@ -1,0 +1,6 @@
+---
+title: Electronics Basic Course
+lessons:
+  - name: Ohms-Law.md
+  - name: LED-and-Vf.md
+  - name: Voltage-Divider.md

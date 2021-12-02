@@ -1,0 +1,16 @@
+{% assign course = site.data.courses[page.course] %}
+
+<p>Other lessons in <a href="../">{{ course.title }}</a>:</p>
+
+<ol>
+{% for lesson in course.lessons %}
+{% assign path = "makerspace/courses/" | append: page.course | append: "/" | append: lesson.name %}
+{% assign lesson_page = site.pages | where: "path", path | first %}
+  <li>
+    <a href="{{ lesson_page.url }}">{{ lesson_page.title }}</a>
+{% if lesson_page.title == page.title %}
+    <span class="badge badge-primary">This lesson</span>
+{% endif %}
+  </li>
+{% endfor %}
+</ol>

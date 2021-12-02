@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="400" height="400" version="1.1" viewBox="0 0 105.83 105.83" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="TriangleInM-3" overflow="visible" orient="auto">
+   <path transform="scale(-.4)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleInM-3-3" overflow="visible" orient="auto">
+   <path transform="scale(-.4)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-81.871 -82.699)">
+  <text x="130.34306" y="112.60765" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="130.34306" y="112.60765" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">1</tspan></tspan></text>
+  <g transform="rotate(-90 187.61 -40.584)">
+   <title>Resistor</title>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+    <path d="m30.427-90.615v-2.6458"/>
+    <path d="m30.427-98.552v-2.6458"/>
+    <path d="m29.104-95.906v-2.6458h2.6458v5.2917h-2.6458v-2.6458" stroke-linejoin="round"/>
+   </g>
+   <title>Resistor</title>
+  </g>
+  <g transform="translate(6.2349 8.149)">
+   <g transform="rotate(180 92.13 53.235)" fill="none" stroke="#000" stroke-linecap="round">
+    <g transform="translate(-44.979 -95.25)" stroke-width=".26458px">
+     <path d="m80.698 69.458 1.3229 2.6458"/>
+     <path d="m79.375 72.104 1.3229-2.6458"/>
+     <path d="m82.021 72.104h-2.6458"/>
+     <path d="m79.375 69.458h2.6458"/>
+     <path d="m80.698 65.49v10.583"/>
+    </g>
+    <path d="m33.073-23.94 0.92521-1.2526" marker-start="url(#TriangleInM-3)" stroke-linejoin="round" stroke-width=".265"/>
+    <path d="m33.073-22.352 0.92521-1.2526" marker-start="url(#TriangleInM-3-3)" stroke-linejoin="round" stroke-width=".265"/>
+   </g>
+   <text x="152.09447" y="132.05849" fill="#000000" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="152.09447" y="132.05849" font-size="4.2333px" stroke-width=".26458"><tspan font-family="sans-serif" font-style="italic">D</tspan><tspan baseline-shift="sub" font-size="2.7517px" stroke-width=".26458">1</tspan></tspan></text>
+  </g>
+  <g transform="translate(58.203 60.369)" fill="none" stroke="#000" stroke-linecap="round" stroke-width=".26458px">
+   <path d="m51.594 73.427v1.3229"/>
+   <path d="m51.594 76.073v-1.3229"/>
+   <path d="m51.594 81.365v2.6458"/>
+   <path d="m48.419 78.19h6.35"/>
+   <path d="m49.477 79.248h4.2333"/>
+   <path d="m51.594 78.19v-2.1167"/>
+   <path d="m51.594 79.248v2.1167"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".265">
+   <path d="m109.8 116.6h17.198"/>
+   <path d="m109.8 161.58h44.979"/>
+   <path d="m137.58 116.6h17.198"/>
+   <path d="m154.78 116.6v17.198"/>
+   <path d="m109.8 116.6v17.198"/>
+   <path d="m109.8 144.38v17.198"/>
+   <path d="m154.78 144.38v17.198"/>
+  </g>
+ </g>
+</svg>
