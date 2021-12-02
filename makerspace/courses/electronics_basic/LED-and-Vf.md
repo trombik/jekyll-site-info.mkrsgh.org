@@ -21,13 +21,16 @@ $ V_{f} $ are shown below.
 | Amber  | 2 - 2.1        |
 | Green  | 1.9 - 4        |
 
-Whatever voltage is applied, the voltage across an LED is always $ V_{f} $.
+When the applied voltage is less than $ V_{f} $, the LED acts like an open
+switch, and no current flows. To turn on an LED, you need to apply voltage
+more than $ V_{f} $. When the voltage is more than $ V_{f} $, the voltage
+across an LED is always $ V_{f} $.
 
-What if an LED is connected to a battery at $ V_{cc} $ V? It will break. Why?
-An LED is not a resistor, and its resistance is (almost) zero. It just drops
-voltage.  The Ohm's law says:
+What if an LED is connected to a 5 V battery? It will break because an LED is
+not a resistor, and its resistance is (almost) zero. It just drops voltage.
+The Ohm's law says:
 
-$$ I = { V \over R } = { { V_{cc} - V_{f} } \over 0 } = \infty $$
+$$ I = { V \over R } = { { V_{cc} - V_{f} } \over 0 } = { { 5 -  V_{f} } \over 0 } = \infty $$
 
 In theory, infinite current will flow thorough the LED.
 
