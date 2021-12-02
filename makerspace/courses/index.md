@@ -45,9 +45,9 @@ Some courses are designed for kids as a *STEM* education program.
     url = "https://www.livescience.com/43296-what-is-stem-education.html"
 %}
 
-## Free courses for Cambodian nationals
+## Free courses for Cambodian students
 
-Courses are free for Cambodian nationals. Please contact us for availability.
+Courses are free for Cambodian students. Please contact us for availability.
 We provide free courses for a group of Cambodian students, too. If you are an
 educator who wants to use our courses as part of your education programs, we
 are happy to help ([how?](../education)).
