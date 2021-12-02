@@ -1,6 +1,7 @@
 ---
 title: Electronics Basic Course
 lessons:
+  - name: Simple-Circuits-and-Measurements-Fundamentals.md
   - name: Ohms-Law.md
   - name: LED-and-Vf.md
   - name: Voltage-Divider.md
