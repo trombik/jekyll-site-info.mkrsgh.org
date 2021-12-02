@@ -95,4 +95,4 @@ you.
 If not, the probes are degraded. Replace probes with a pair of known good
 ones.
 
-# Other lessons
+## Other lessons
