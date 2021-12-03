@@ -2,6 +2,8 @@
 layout: single
 lang: en
 title: Chartjs example
+toc: true
+tox_sticky: true
 
 chartjs:
   - name: simple_bar_chart
@@ -41,9 +43,9 @@ chartjs:
             borderWidth: 1
       options:
         scales:
-          yAxes:
-            - ticks:
-                beginAtZero: true
+          y:
+            ticks:
+              beginAtZero: true
   - name: simple_line_chart
     chart:
       type: line
@@ -66,7 +68,8 @@ chartjs:
 ---
 
 This is an example page to explain how to create a post, or a page, with
-charts with a custom `chartjs`, implemented in `_plugins/chartjs.rb`.
+charts with a custom `chartjs`, implemented in `_plugins/chartjs.rb`. The
+version of `chartjs` is 3.6.1.
 
 `_plugins/chartjs.rb` implements a custom `liquid` tag, `chartjs`. `chartjs`
 liquid tag creates a chart in the page from data in the front matter of the
@@ -132,14 +135,14 @@ will not work.
 
 ## Simple bar chart example
 
-### Chart
+### The Chart
 
 {% chartjs name=simple_bar_chart %}
 
 ### Data in front matter
 
 ```yaml
----
+
 chartjs:
   - name: simple_bar_chart
     chart:
@@ -178,9 +181,9 @@ chartjs:
             borderWidth: 1
       options:
         scales:
-          yAxes:
-            - ticks:
-                beginAtZero: true
+          y:
+            ticks:
+              beginAtZero: true
 ```
 
 ### Tag in the post
@@ -193,7 +196,7 @@ chartjs:
 
 ## Simple line chart
 
-### Chart
+### The Chart
 
 {% chartjs name=simple_line_chart %}
 
@@ -221,10 +224,442 @@ chartjs:
             lineTension: 0.1
 ```
 
-### Tag
+### Tag in the post
 
 ```ruby
 {% raw %}
 {% chartjs name=simple_line_chart %}
 {% endraw %}
+```
+
+## Function example
+
+To draw math functions, such as `sin(x)` or `cos(x)`, you need to code
+in JavaScript. `chartjs` plugin does not support functions.
+
+### The Chart
+
+<canvas id="waves"></canvas>
+<script>
+
+function rad(degree) {
+    return (degree / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("waves");
+var data = {
+    labels: Array.from({length: 360}, (x, i) => i * 2),
+    datasets: [{
+        label: "f(x) = cos(x)",
+        function: function(x) { return Math.cos(rad(x)) },
+        borderColor: "rgba(75, 192, 192, 1)",
+        data: [],
+        fill: false,
+        pointRadius: 0
+    },
+    {
+        label: "f(x) = sin(x)",
+        function: function(x) { return Math.sin(rad(x)) },
+        borderColor: "rgba(153, 102, 255, 1)",
+        data: [],
+        fill: false,
+        pointRadius: 0
+    }]
+};
+
+var myFunctionChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        scales: {
+            y: {
+                ticks: {
+                    stepSize: 0.5,
+                    beginAtZero:true
+                }
+            }
+        }
+    }
+});
+</script>
+
+### The JavaScript code
+
+```html
+{%- raw %}
+<canvas id="waves"></canvas>
+<script>
+
+function rad(degree) {
+    return (degree / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("waves");
+var data = {
+    labels: Array.from({length: 360}, (x, i) => i * 2),
+    datasets: [{
+        label: "f(x) = cos(x)",
+        function: function(x) { return Math.cos(rad(x)) },
+        borderColor: "rgba(75, 192, 192, 1)",
+        data: [],
+        fill: false,
+        pointRadius: 0
+    },
+    {
+        label: "f(x) = sin(x)",
+        function: function(x) { return Math.sin(rad(x)) },
+        borderColor: "rgba(153, 102, 255, 1)",
+        data: [],
+        fill: false,
+        pointRadius: 0
+    }]
+};
+
+var myFunctionChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        scales: {
+            y: {
+                ticks: {
+                    stepSize: 0.5,
+                    beginAtZero:true
+                }
+            }
+        }
+    }
+});
+</script>{% endraw %}
+```
+
+## AC wave example
+
+Here is an example of a typical AC wave at `Vpeak` = 12 V.
+
+### The Chart
+
+<canvas id="ac_wave"></canvas>
+<script>
+function rad(x) {
+    return (x / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("ac_wave");
+var data = {
+    labels: Array.from({length: 360}, (x, i) => i * 3),
+    datasets: [
+        {
+            label: "AC signal",
+            function: function(x) { return Math.sin(rad(x)) * 12 },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        }
+    ]
+};
+
+var myFunctionChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        plugins: {
+            title: {
+                text: "AC at Vpeak = 12V",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: false,
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: "Vin"
+                },
+                ticks: {
+                    stepSize: 2,
+                    callback(value, index, values) {
+                        return `${value} V`;
+                    }
+                }
+            }
+        }
+    }
+});
+</script>
+
+### The JavaScript code
+
+```html
+{%- raw %}
+<canvas id="ac_wave"></canvas>
+<script>
+function rad(x) {
+    return (x / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("ac_wave");
+var data = {
+    labels: Array.from({length: 360}, (x, i) => i * 3),
+    datasets: [
+        {
+            label: "AC signal",
+            function: function(x) { return Math.sin(rad(x)) * 12 },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        }
+    ]
+};
+
+var myFunctionChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        plugins: {
+            title: {
+                text: "AC at Vpeak = 12V",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: false,
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: "Vin"
+                },
+                ticks: {
+                    stepSize: 2,
+                    callback(value, index, values) {
+                        return `${value} V`;
+                    }
+                }
+            }
+        }
+    }
+});
+</script>{% endraw %}
+```
+
+## Amplifier example
+
+Here is an example of input and output of inverted amplifier.
+
+### The Chart
+
+<canvas id="inverted_amp"></canvas>
+<script>
+function rad(x) {
+    return (x / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("inverted_amp");
+var data = {
+    labels: Array.from({length: 361}, (x, i) => i * 3),
+    datasets: [
+        {
+            label: "Vin",
+            function: function(x) { return Math.sin(rad(x)) * 1.2 },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        },
+        {
+            label: "Vout",
+            function: function(x) { return Math.sin(rad(x)) * -12 },
+            borderColor: "rgba(192, 75, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        }
+    ]
+};
+
+var myInvertedAmpChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        interaction: {
+            intersect: false,
+            mode: 'index',
+        },
+        plugins: {
+            title: {
+                text: "Inverted amplifier at A = -10",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: false,
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: "Vin"
+                },
+                ticks: {
+                    stepSize: 2,
+                    callback(value, index, values) {
+                        return `${value} V`;
+                    }
+                }
+            }
+        }
+    }
+});
+</script>
+
+### The JavaScript code
+
+```html
+{%- raw %}
+<canvas id="inverted_amp"></canvas>
+<script>
+function rad(x) {
+    return (x / 360) * 2 * Math.PI
+};
+
+var ctx = document.getElementById("inverted_amp");
+var data = {
+    labels: Array.from({length: 361}, (x, i) => i * 3),
+    datasets: [
+        {
+            label: "Vin",
+            function: function(x) { return Math.sin(rad(x)) * 1.2 },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        },
+        {
+            label: "Vout",
+            function: function(x) { return Math.sin(rad(x)) * -12 },
+            borderColor: "rgba(192, 75, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        }
+    ]
+};
+
+var myInvertedAmpChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        interaction: {
+            intersect: false,
+            mode: 'index',
+        },
+        plugins: {
+            title: {
+                text: "Inverted amplifier at A = -10",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: false,
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: "Vin"
+                },
+                ticks: {
+                    stepSize: 2,
+                    callback(value, index, values) {
+                        return `${value} V`;
+                    }
+                }
+            }
+        }
+    }
+});
+</script>{% endraw %}
 ```
