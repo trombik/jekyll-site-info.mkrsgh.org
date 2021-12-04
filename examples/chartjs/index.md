@@ -72,9 +72,9 @@ This is an example page to explain how to create a post, or a page, with
 charts with a custom `chartjs`, implemented in `_plugins/chartjs.rb`. The
 version of `chartjs` is 3.6.1.
 
-`_plugins/chartjs.rb` implements a custom `liquid` tag, `chartjs`. `chartjs`
-liquid tag creates a chart in the page from data in the front matter of the
-page.
+[`_plugins/chartjs.rb`](https://github.com/trombik/jekyll-site-info.mkrsgh.org/blob/devel/_plugins/chartjs.rb)
+implements a custom `liquid` tag, `chartjs`. `chartjs` liquid tag creates a
+chart in the page from data in the front matter of the page.
 
 The plugin is a wrapper to pass datasets and configuration of a chart to
 [`chart.js`](https://www.chartjs.org/). `chart.js` has simple interfaces to
