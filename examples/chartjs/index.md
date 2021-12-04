@@ -3,7 +3,8 @@ layout: single
 lang: en
 title: Chartjs example
 toc: true
-tox_sticky: true
+toc_sticky: true
+mathjax: true
 
 chartjs:
   - name: simple_bar_chart
@@ -656,6 +657,190 @@ var myInvertedAmpChart = new Chart(ctx, {
                     callback(value, index, values) {
                         return `${value} V`;
                     }
+                }
+            }
+        }
+    }
+});
+</script>{% endraw %}
+```
+
+## Diode I-V curve example
+
+The diode equation is:
+
+$$ I = I_{s} ( e^ { qV \over nkT } - 1 ) $$
+
+* $$ I_{s} $$ is reverse saturation current
+* $$ V $$ is applied voltage
+* $$ q $$ is electron charge, 1.609e-19 coulombs
+* $$ k $$ is Boltzmann's constant, 1.38e-23
+* $$ T $$ is absolute temperature in Kelvin
+* $$ n $$ is a junction constant, between 1 and 2
+
+### The Chart
+
+<canvas id="diode_i_v"></canvas>
+<script>
+function kelvin(c) {
+  const absoluteZero = 273;
+  return c + absoluteZero;
+}
+
+function diodeCurrent(v) {
+    const k = 1.38e-23;
+    const q = 1.609e-19;
+    var I_s = 0.000000005; /* 5 nA at 25 degree Celsius */
+    var n = 1.6;
+
+    var qV = q * v;
+    var nKT = n * k * kelvin(25);
+    return I_s * (Math.exp(qV / nKT) - 1);
+}
+
+var ctx = document.getElementById("diode_i_v");
+var data = {
+    labels: Array.from({length: 100 + 1}, (x, i) => i / 100),
+    datasets: [
+        {
+            label: "I",
+            function: function(x) { return diodeCurrent(x) },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        },
+    ]
+};
+
+var myDiodeIV = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        plugins: {
+            title: {
+                text: "Diode I - V curve",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: true,
+                title: {
+                    display: true,
+                    text: "V"
+                },
+            },
+            y: {
+                max: 2,
+                title: {
+                    display: true,
+                    text: "I",
+                },
+                ticks: {
+                    display: true,
+                    callback(value, index, values) {
+                        return `${value} A`;
+                    },
+                }
+            }
+        }
+    }
+});
+</script>
+
+### The JavaScript code
+
+```html
+{%- raw %}
+<canvas id="diode_i_v"></canvas>
+<script>
+function kelvin(c) {
+  const absoluteZero = 273;
+  return c + absoluteZero;
+}
+
+function diodeCurrent(v) {
+    const k = 1.38e-23;
+    const q = 1.609e-19;
+    var I_s = 0.000000005; /* 5 nA at 25 degree Celsius */
+    var n = 1.6;
+
+    var qV = q * v;
+    var nKT = n * k * kelvin(25);
+    return I_s * (Math.exp(qV / nKT) - 1);
+}
+
+var ctx = document.getElementById("diode_i_v");
+var data = {
+    labels: Array.from({length: 100 + 1}, (x, i) => i / 100),
+    datasets: [
+        {
+            label: "I",
+            function: function(x) { return diodeCurrent(x) },
+            borderColor: "rgba(75, 192, 192, 1)",
+            data: [],
+            fill: false,
+            pointRadius: 0
+        },
+    ]
+};
+
+var myDiodeIV = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    plugins: [{
+        beforeInit: function(chart) {
+            var data = chart.config.data;
+            for (var i = 0; i < data.datasets.length; i++) {
+                for (var j = 0; j < data.labels.length; j++) {
+                    var fct = data.datasets[i].function,
+                        x = data.labels[j],
+                        y = fct(x);
+                    data.datasets[i].data.push(y);
+                }
+            }
+        }
+    }],
+    options: {
+        plugins: {
+            title: {
+                text: "Diode I - V curve",
+                display: true
+            }
+        },
+        scales: {
+            x: {
+                display: true,
+                title: {
+                    display: true,
+                    text: "V"
+                },
+            },
+            y: {
+                max: 2,
+                title: {
+                    display: true,
+                    text: "I",
+                },
+                ticks: {
+                    display: true,
+                    callback(value, index, values) {
+                        return `${value} A`;
+                    },
                 }
             }
         }
