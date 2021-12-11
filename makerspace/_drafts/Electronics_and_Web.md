@@ -22,7 +22,7 @@ library to write formulas.
 
 The Ohm's law is $ V = IR $, or $ I = { V \over R } $.
 
-```
+```text
 {% raw %}
 The Ohm's law is $ V = IR $, or $ I = { V \over R } $.
 {% endraw %}
