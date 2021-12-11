@@ -45,13 +45,15 @@ current to break the LED.
 
 To protect the LED, a resistor is used very often. The resistor limits the
 current that flows thorough the LED. To calculate the value of the resistor,
-you need $ I_{f} $, or forward current. The data sheet, or the product page,
-of the LED shows typical $ I_{f} $ for the LED. A typical value is between 10
-mA and 20 mA. As recent LEDs are very bright, even a few mA would work. Then
-you need the $ V_{cc} $, the voltage of the power source. Here, two AAA
-batteries, or 3 V, are used as an example, $ V_{f} $ is 1.8 V, and $ I_{f} $ is
-10 mA. The voltage across the current limiting resistor is $ V_{cc} - V_{f} =
-3 - 1.8 = 2.2 (V) $.
+you need $ I_{f} $, or forward current, which is the current flows into the
+LED.The data sheet, or the product page, of the LED shows typical $ I_{f} $
+for the LED. A typical value is between 10 mA and 20 mA. As recent LEDs are
+very bright, even a few mA would work. Then you need the $ V_{cc} $, the
+voltage of the power source. Here, two AAA batteries, or 3 V, are used as an
+example. $ V_{f} $ is 1.8 V, and $ I_{f} $ is 10 mA. The voltage across the
+current limiting resistor is:
+
+$$ V_{cc} - V_{f} = 3 - 1.8 = 2.2 (V) $$
 
 From the Ohm's law:
 
