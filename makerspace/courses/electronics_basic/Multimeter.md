@@ -8,7 +8,7 @@ tagline: Your best friend, multimeters
 
 In this lesson, you will:
 
-* What a multimeter can do for you
+* Learn what a multimeter can do for you
 * Learn to use a multimeter
 * Learn to use it safely
 
