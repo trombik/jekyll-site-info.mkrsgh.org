@@ -49,7 +49,7 @@ ten-minutes break in-between.
 
 {: .notice--info }
 You can read an overview of the course at
-[Electronics Basic Course](makerspace/courses/electronics_basic/) page.
+[Electronics Basic Course](/makerspace/courses/electronics_basic/) page.
 
 While I am teaching them, I am also learning because I am not a teacher in
 any way. Understanding something does not mean being able to teach it. As it
