@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/img/our-students-in-a-class.jpg
   overlay_filter: 0.4
   show_overlay_excerpt: false
-  caption: ""
+  caption: "Two students exploring their circuit using a multi-meter in the class"
 tags:
   - stem
 ---
