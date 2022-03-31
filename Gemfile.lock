@@ -65,6 +65,9 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
+    io-console (0.5.11)
+    irb (1.4.1)
+      reline (>= 0.3.0)
     jekyll (4.2.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -154,6 +157,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
+    reline (0.3.1)
+      io-console (~> 0.5)
     rexml (3.2.5)
     rmagick (4.2.3)
     rouge (3.26.1)
@@ -196,6 +201,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
+  irb
   jekyll
   jekyll-archives
   jekyll-browsersync

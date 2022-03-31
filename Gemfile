@@ -13,6 +13,7 @@ gem "rqrcode"
 
 # for rake tasks
 gem "rake"
+gem "irb"
 
 # for CI
 gem "html-proofer"
