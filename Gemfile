@@ -2,22 +2,15 @@
 
 source "https://rubygems.org"
 
-# to publish on github page
-# gem 'github-pages', group: :jekyll_plugins
-
-# to publich without github page
-gem "jekyll"
-
-# for generating QR code images
-gem "rqrcode"
-
-# for rake tasks
-gem "rake"
-gem "irb"
-
-# for CI
 gem "html-proofer"
+gem "irb"
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
+gem "rake"
+gem "rqrcode"
 gem "rubocop"
+# XXX https://github.com/guard/listen/issues/475
+gem "rb-kqueue", git: "https://github.com/stevebob/rb-kqueue.git", branch: "handle-unexpected-events"
 
 group :jekyll_plugins do
   gem "jekyll-archives"
@@ -31,7 +24,3 @@ group :jekyll_plugins do
 
   gem "jekyll-youtube"
 end
-gem "minimal-mistakes-jekyll"
-
-# XXX https://github.com/guard/listen/issues/475
-gem "rb-kqueue", git: "https://github.com/stevebob/rb-kqueue.git", branch: "handle-unexpected-events"
