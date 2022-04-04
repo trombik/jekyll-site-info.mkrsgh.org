@@ -73,9 +73,11 @@ If you will arrive late, after 20:00, please let us know in advance.
 
 ### Pets
 
-Pets are not allowed. Service dogs are welcome. We do not charge for a service
+Pets are allowed. Service dogs are welcome. We do not charge for a service
 dog. We follow the following rules:
 
+- The owner and/or the guest are responsible for damages caused by pets or the
+  service dog
 - Not petting the service dog
 - Speaking to or teasing the service dog
 - No feeding the service dog
