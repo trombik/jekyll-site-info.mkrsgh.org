@@ -25,6 +25,10 @@ hotel_menu:
 
 ## Customer portal for hotel guests
 
+### [Reservation](https://hotels.cloudbeds.com/reservation/Xnbrf3)
+
+We have better prices at [our direct reservation page](https://hotels.cloudbeds.com/reservation/Xnbrf3)!
+
 ### [Hotel policy](policy)
 
 Please have a look at our hotel policy, including checkout time, opening hours, etc.
@@ -44,3 +48,5 @@ Our local tuk-tuk tours! Not only Angkor Wat, but water reservoirs, local market
 ### [Understanding](understanding)
 
 The history, facts, and culture of Cambodia.
+
+<script src="https://hotels.cloudbeds.com/widget/load/Xnbrf3/float?newWindow=1"></script>
