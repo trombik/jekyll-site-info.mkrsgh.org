@@ -43,7 +43,7 @@
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <li><a href="{{ include.prefix_dir | append: '/' | append: site.pagination.permalink | replace: ':num', index | relative_url }}">{{ index }}</a></li>
+        <li><a href="{{ include.prefix_dir | append: '/' | append: site.pagination.permalink | replace: ':num', index | replace: '//', '/' | relative_url }}">{{ index }}</a></li>
       {% endif %}
     {% endfor %}
 
