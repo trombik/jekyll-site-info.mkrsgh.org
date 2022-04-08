@@ -119,6 +119,7 @@ feature_row_menu:
   <div class="row">
     <div class="col-sm-4">
       <p>The property is located at Wat Bo 20, Siem Reap. Next to Babel Guesthouse.</p>
+      <p>You can <a href="https://t.me/mkrsgh">contact us on Telegram</a>.</p>
     </div>
     <div class="col-sm-8">
       <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=103.86054039001466%2C13.357663974686954%2C103.86401116847993%2C13.361995949512423&amp;layer=mapnik&amp;marker=13.359829971822904%2C103.8622784614563" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=13.35983&amp;mlon=103.86228#map=18/13.35983/103.86228&amp;layers=N">View Larger Map</a></small>
