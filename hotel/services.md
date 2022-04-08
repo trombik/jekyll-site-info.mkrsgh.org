@@ -29,6 +29,13 @@ The voltage of AC main is 240V. Please check the rating of your devices.
 Universal power adapters are available for free. They support US (type A), EU
 (type C), and UK (type G).
 
+## Swimming pool
+
+Guests can use a swimming pool at
+[Babel Guesthouse](https://www.babelsiemreap.com/), which is next to Makers
+Guesthouse, for free. Please order drinks and/or foods &mdash; they are great
+&mdash; for their courtesy!
+
 ## Drinks
 
 ### Water
@@ -39,8 +46,9 @@ located at the ground floor.
 
 ## Foods
 
-We do not serve foods, however, your are free to order meals from local
-restaurants, or other guesthouses. Some accept reservation for early-birds.
+Your are free to order meals from local restaurants, or other guesthouses. We
+recommend foods at [Babel Guesthouse](https://www.babelsiemreap.com/).
+
 A shared kitchen is available for guests.
 
 ## Networking
