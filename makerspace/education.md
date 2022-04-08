@@ -49,4 +49,4 @@ using certain tools, machines, and works. We have [safety
 guidelines](../safety) and [a list of tools and machines](../tools) that
 require safety clearance.
 
-Please [contact us](mailto:info@mkrsgh.org) for more information.
+Please [contact us](https://t.me/mkrsgh) for more information.
