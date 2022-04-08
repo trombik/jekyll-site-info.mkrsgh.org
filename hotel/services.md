@@ -41,6 +41,7 @@ located at the ground floor.
 
 We do not serve foods, however, your are free to order meals from local
 restaurants, or other guesthouses. Some accept reservation for early-birds.
+A shared kitchen is available for guests.
 
 ## Networking
 
