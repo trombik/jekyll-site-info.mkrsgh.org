@@ -13,10 +13,11 @@ jobs:
       - name: Check out
         uses: actions/checkout@v2
 
-      - name: Install packages
-        uses: borales/actions-yarn@v2.3.0
+      - name: Install node
+        uses: actions/setup-node@v3
         with:
-          cmd: install
+          node-version: 16
+          cache: yarn
 
       - name: Run standard
         run: |
