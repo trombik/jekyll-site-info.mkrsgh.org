@@ -63,6 +63,14 @@ short blinks on success, and a longer blink on failure.
 * a tact switch, or a button
 * some wires and a breadboard
 
+## Schematic
+
+{% include figure
+  image_path="/assets/img/posts/esp-doorbell-schematic.svg"
+  alt="esp-doorbell schematic"
+  caption="the schematic of esp-doorbell"
+%}
+
 ## The `esphome` configuration
 
 Here, I will explain the configuration sections. The latest code in GitHub can
