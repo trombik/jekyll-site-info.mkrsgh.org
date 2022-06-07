@@ -212,7 +212,6 @@ communication.
 See the official documentation at
 [Native API Component](https://esphome.io/components/api.html)
 
-
 ```yaml
 # OTA is enabled here but it does not work because the device is almost always
 # in deepsleep.
