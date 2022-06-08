@@ -19,6 +19,10 @@ jobs:
           node-version: 16
           cache: yarn
 
+      - name: Install node packages
+        run: |
+          yarn install --frozen-lockfile
+
       - name: Run standard
         run: |
           node_modules/.bin/standard
