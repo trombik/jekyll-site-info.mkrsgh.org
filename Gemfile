@@ -9,8 +9,8 @@ gem "minimal-mistakes-jekyll"
 gem "rake"
 gem "rqrcode"
 gem "rubocop"
-# XXX https://github.com/guard/listen/issues/475
-gem "rb-kqueue", git: "https://github.com/stevebob/rb-kqueue.git", branch: "handle-unexpected-events"
+# rb-kqueue 0.2.8 includes fixes for ruby 3.x
+gem "rb-kqueue", ">=0.2.8"
 
 group :jekyll_plugins do
   gem "jekyll-archives"
