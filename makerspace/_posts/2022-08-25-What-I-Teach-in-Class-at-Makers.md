@@ -38,7 +38,7 @@ the learning process fun. Unsurprisingly, she is the fastest learner.
     caption: "Making the first circuit in his life"
 %}
 
-Another student has his own objectives. He is quiet, and have not explained
+Another student has his own objectives. He is quiet, and has not explained
 what exactly he would like to achieve in my class. However, I am sure he has
 his own goals. The last week, he made, unusually, a request: he would like to
 learn 3D design because he would like to make a case for his bare hard disk,
@@ -52,8 +52,8 @@ When you have motivations, learning is not a burden.
 Very few students in this country have opportunity to learn modern
 technologies. Although some universities allege they teach "IT", their
 definition of "IT" is not same as ours. Well, the definition of "IT" is vague.
-I don't now what it really means. However, I do know that it does mean how to
-use Word or Excel. Some say "you should do your business in Phnom Penh" but
+I don't now what it really means. However, I do know that it does not mean how
+to use Word or Excel. Some say "you should do your business in Phnom Penh" but
 if you can afford education in the capital, you do not need me.
 
 {% responsive_image
