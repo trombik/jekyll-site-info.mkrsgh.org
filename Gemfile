@@ -9,6 +9,7 @@ gem "minimal-mistakes-jekyll"
 gem "rake"
 gem "rqrcode"
 gem "rubocop"
+gem "webrick"
 # rb-kqueue 0.2.8 includes fixes for ruby 3.x
 gem "rb-kqueue", ">=0.2.8"
 
