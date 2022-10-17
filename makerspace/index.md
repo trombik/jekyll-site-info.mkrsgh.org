@@ -119,6 +119,9 @@ feature_row_menu:
   <div class="row">
     <div class="col-sm-4">
       <p>The property is located at Wat Bo 20, Siem Reap. Next to Babel Guesthouse.</p>
+      <p>Address: "Makers Guesthouse, between Babel guesthouse and
+      Happy guesthouse, Street 20, Wat Bor Road, Salakamreuk, Siem Reap</p>
+      <p>Post code: 17254</p>
       <p>You can <a href="https://t.me/mkrsgh">contact us on Telegram</a>.</p>
     </div>
     <div class="col-sm-8">
