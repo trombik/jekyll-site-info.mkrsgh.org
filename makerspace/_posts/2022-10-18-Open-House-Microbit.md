@@ -10,10 +10,11 @@ tags:
 
 ---
 
-micro:bit is a pocket-sized computer board designed by BBC, to encourage kids
-to learn how computers work, rather than simply consuming. The fourth Open
-House event at Makers Siem Reap, kids met the board and learnt programming.
-Here is the summary of the event.
+[micro:bit](https://www.microbit.org/)
+is a pocket-sized computer board designed by BBC, to encourage kids to learn
+how computers work, rather than simply consuming. The fourth Open House event
+at Makers Siem Reap, kids met the board and learnt programming.  Here is the
+summary of the event.
 
 ## The micro:bit
 
