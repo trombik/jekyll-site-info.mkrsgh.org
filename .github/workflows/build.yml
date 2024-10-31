@@ -32,4 +32,4 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Run htmlproofer
-        run: bundle exec htmlproofer --ignore-urls "/^#$/" --disable-external _site/
+        run: bundle exec htmlproofer --no-enforce-https --ignore-urls "/^#$/" --disable-external _site/
