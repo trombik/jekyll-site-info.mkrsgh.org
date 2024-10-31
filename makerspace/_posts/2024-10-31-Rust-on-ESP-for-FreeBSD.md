@@ -13,7 +13,6 @@ tool-chains,
 [trombik/xtensa-esp32-elf](https://github.com/trombik/xtensa-esp32-elf/)
 includes the following Rust on ESP ports.
 
-
 * `lang/rust-esp`
 * `lang/rust-esp-src`
 * `devel/esp-llvm-embedded-toolchain`
