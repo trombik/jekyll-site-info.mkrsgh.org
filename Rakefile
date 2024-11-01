@@ -20,7 +20,7 @@ task :jekyll_build do
 end
 
 task :htmlproofer do
-  sh "htmlproofer --url-ignore /^#\$/ --disable-external _site/"
+  sh "htmlproofer --no-enforce-https --ignore-urls /^#\$/ --disable-external _site/"
 end
 
 task :aspell do
