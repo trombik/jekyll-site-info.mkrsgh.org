@@ -3,7 +3,7 @@ title: Rust on ESP for FreeBSD
 lang: en
 tags:
   - freebsd
-  - Espressif
+  - espressif
   - esp32
   - rust
 ---
